@@ -1,4 +1,4 @@
-from flask import Flask, render_template, send_from_directory, request, redirect, url_for, session, jsonify, make_response
+from flask import Flask, render_template, request, redirect, url_for, session, jsonify, make_response
 import pandas as pd
 import numpy as np
 from sklearn.preprocessing import StandardScaler
@@ -18,7 +18,7 @@ from dotenv import load_dotenv
 # Load environment variables
 load_dotenv()
 
-app = Flask(__name__, template_folder='../templates', static_folder='../static')
+app = Flask(__name__, template_folder='templates')
 app.config['JSON_AS_ASCII'] = False
 app.secret_key = os.getenv('SECRET_KEY', 'your_secret_key')
 
@@ -48,19 +48,7 @@ logger.addHandler(file_handler)
 logger.addHandler(console_handler)
 
 # Initialize Firebase
-#cred = credentials.Certificate('hdproject-6e51c-firebase-adminsdk-4e5te-d7102a3fe3.json')
-cred = credentials.Certificate({
-    "type": os.getenv("FIREBASE_TYPE"),
-    "project_id": os.getenv("FIREBASE_PROJECT_ID"),
-    "private_key_id": os.getenv("FIREBASE_PRIVATE_KEY_ID"),
-    "private_key": os.getenv("FIREBASE_PRIVATE_KEY").replace('\\n', '\n'),
-    "client_email": os.getenv("FIREBASE_CLIENT_EMAIL"),
-    "client_id": os.getenv("FIREBASE_CLIENT_ID"),
-    "auth_uri": os.getenv("FIREBASE_AUTH_URI"),
-    "token_uri": os.getenv("FIREBASE_TOKEN_URI"),
-    "auth_provider_x509_cert_url": os.getenv("FIREBASE_AUTH_PROVIDER_X509_CERT_URL"),
-    "client_x509_cert_url": os.getenv("FIREBASE_CLIENT_X509_CERT_URL")
-})
+cred = credentials.Certificate('hdproject-6e51c-firebase-adminsdk-4e5te-d7102a3fe3.json')
 firebase_admin.initialize_app(cred)
 db = firestore.client()
 
@@ -95,10 +83,6 @@ FEATURE_NAMES = scaler.feature_names_in_.tolist() if hasattr(scaler, 'feature_na
 def home():
     logger.info("Rendering home page")
     return render_template('index.html')
-
-@app.route('/static/<path:path>')
-def send_static(path):
-    return send_from_directory('../static', path)
 
 def generate_workout_plan(user_info):
     try:
