@@ -1,0 +1,755 @@
+2025-03-18 20:04:58,932 - workout_app - ERROR - Error generating workout plan: '22'
+2025-03-18 20:08:56,230 - workout_app - ERROR - Error generating model-based plan: 'cluster_data'
+2025-03-18 20:08:56,232 - workout_app - ERROR - Error in cluster-based plan generation: 'cluster_data'
+2025-03-18 20:08:56,232 - workout_app - ERROR - Error generating workout plan: 'cluster_data'
+2025-03-18 22:03:49,179 - workout_app - ERROR - Invalid input data: Missing required fields: calorie_target
+2025-03-18 22:05:23,473 - workout_app - INFO - Processed user input data: {'weight': 65.0, 'height': 1.77, 'age': 23, 'bmi': 20.747550193111813, 'days_per_week': 5, 'sleep_hours': 6.0, 'intensity': -1, 'exercise_type': 1, 'calories': 1200.0, 'protein': 0.3, 'carbohydrate': 0.4, 'fat': 0.3, 'fiber': 16.8, 'equipment': 'none', 'fitness_level': '1', 'rating': 0}
+2025-03-18 22:06:25,198 - workout_app - INFO - Processed user input data: {'weight': 65.0, 'height': 1.77, 'age': 23, 'bmi': 20.747550193111813, 'days_per_week': 4, 'sleep_hours': 6.0, 'intensity': -1, 'exercise_type': 1, 'calories': 1200.0, 'protein': 0.3, 'carbohydrate': 0.4, 'fat': 0.3, 'fiber': 16.8, 'equipment': 'none', 'fitness_level': '1', 'rating': 0}
+2025-03-18 22:12:25,414 - workout_app - INFO - Processed user input data: {'weight': 65.0, 'height': 1.77, 'age': 23, 'bmi': 20.747550193111813, 'days_per_week': 3, 'sleep_hours': 6.0, 'intensity': -1, 'exercise_type': 0, 'calories': 1200.0, 'protein': 0.3, 'carbohydrate': 0.4, 'fat': 0.3, 'fiber': 16.8, 'equipment': 'none', 'fitness_level': '1', 'rating': 0}
+2025-03-18 22:12:26,118 - workout_app - ERROR - Error generating workout plan: [Errno 2] No such file or directory: 'models/cluster_analysis.json'
+2025-03-18 22:12:26,118 - workout_app - ERROR - Error generating plan: [Errno 2] No such file or directory: 'models/cluster_analysis.json'
+2025-03-18 22:19:51,890 - workout_app - INFO - Processed user input data: {'weight': 65.0, 'height': 1.77, 'age': 23, 'bmi': 20.747550193111813, 'days_per_week': 3, 'sleep_hours': 6.0, 'intensity': -1, 'exercise_type': 0, 'calories': 1200.0, 'protein': 0.3, 'carbohydrate': 0.4, 'fat': 0.3, 'fiber': 16.8, 'equipment': 'none', 'fitness_level': '1', 'rating': 0}
+2025-03-18 22:19:52,362 - workout_app - ERROR - Error generating workout plan: 'cardio_ratio'
+2025-03-18 22:19:52,362 - workout_app - ERROR - Error generating plan: 'cardio_ratio'
+2025-03-19 01:53:16,245 - workout_app - INFO - Processed user input data: {'weight': 65.0, 'height': 1.77, 'age': 23, 'bmi': 20.747550193111813, 'days_per_week': 3, 'sleep_hours': 6.0, 'intensity': -1, 'exercise_type': 0, 'calories': 1200.0, 'protein': 0.3, 'carbohydrate': 0.4, 'fat': 0.3, 'fiber': 16.8, 'equipment': 'none', 'fitness_level': '1', 'rating': 0}
+2025-03-19 01:53:17,074 - workout_app - ERROR - Error formatting complete plan: 'macros'
+2025-03-19 01:53:17,076 - workout_app - ERROR - Error generating plan: Failed to format complete plan: 'macros'
+2025-03-19 01:54:24,448 - workout_app - INFO - Processed user input data: {'weight': 65.0, 'height': 1.77, 'age': 23, 'bmi': 20.747550193111813, 'days_per_week': 4, 'sleep_hours': 6.0, 'intensity': -1, 'exercise_type': 1, 'calories': 1200.0, 'protein': 0.3, 'carbohydrate': 0.4, 'fat': 0.3, 'fiber': 16.8, 'equipment': 'none', 'fitness_level': '1', 'rating': 0}
+2025-03-19 01:54:24,903 - workout_app - ERROR - Error formatting complete plan: 'macros'
+2025-03-19 01:54:24,905 - workout_app - ERROR - Error generating plan: Failed to format complete plan: 'macros'
+2025-03-19 02:01:56,613 - workout_app - INFO - Processed user input data: {'weight': 65.0, 'height': 1.77, 'age': 23, 'bmi': 20.747550193111813, 'days_per_week': 5, 'sleep_hours': 6.0, 'intensity': 0, 'exercise_type': 1, 'calories': 1200.0, 'protein': 0.3, 'carbohydrate': 0.4, 'fat': 0.3, 'fiber': 16.8, 'equipment': 'none', 'fitness_level': '3', 'rating': 0}
+2025-03-19 02:01:59,150 - workout_app - ERROR - Error generating plan: plan.html
+2025-03-19 02:05:37,948 - workout_app - INFO - Processed user input data: {'weight': 65.0, 'height': 1.77, 'age': 23, 'bmi': 20.747550193111813, 'days_per_week': 4, 'sleep_hours': 6.0, 'intensity': 0, 'exercise_type': 1, 'calories': 1200.0, 'protein': 0.3, 'carbohydrate': 0.4, 'fat': 0.3, 'fiber': 16.8, 'equipment': 'none', 'fitness_level': '3', 'rating': 0}
+2025-03-19 02:14:26,302 - workout_app - INFO - Processed user input data: {'weight': 65.0, 'height': 1.77, 'age': 23, 'bmi': 20.747550193111813, 'days_per_week': 4, 'sleep_hours': 6.0, 'intensity': -1, 'exercise_type': 0, 'calories': 1200.0, 'protein': 0.3, 'carbohydrate': 0.4, 'fat': 0.3, 'fiber': 16.8, 'equipment': 'none', 'fitness_level': '1', 'rating': 0}
+2025-03-19 02:20:37,596 - workout_app - INFO - Processed user input data: {'weight': 65.0, 'height': 1.77, 'age': 23, 'bmi': 20.747550193111813, 'days_per_week': 6, 'sleep_hours': 6.0, 'intensity': 0, 'exercise_type': 1, 'calories': 1200.0, 'protein': 0.3, 'carbohydrate': 0.4, 'fat': 0.3, 'fiber': 16.8, 'equipment': 'none', 'fitness_level': '3', 'rating': 0}
+2025-03-19 02:29:11,968 - workout_app - INFO - Processed user input data: {'weight': 66.0, 'height': 1.56, 'age': 23, 'bmi': 27.12031558185404, 'days_per_week': 6, 'sleep_hours': 6.0, 'intensity': 0, 'exercise_type': 2, 'calories': 1200.0, 'protein': 0.3, 'carbohydrate': 0.4, 'fat': 0.3, 'fiber': 16.8, 'equipment': 'none', 'fitness_level': '3', 'rating': 0}
+2025-03-19 02:29:13,412 - workout_app - ERROR - Error generating plan: One or more components is not a string or is empty.
+2025-03-19 02:30:06,029 - workout_app - INFO - Processed user input data: {'weight': 65.0, 'height': 1.77, 'age': 23, 'bmi': 20.747550193111813, 'days_per_week': 6, 'sleep_hours': 5.5, 'intensity': -1, 'exercise_type': 2, 'calories': 1200.0, 'protein': 0.3, 'carbohydrate': 0.4, 'fat': 0.3, 'fiber': 16.8, 'equipment': 'none', 'fitness_level': '1', 'rating': 0}
+2025-03-19 02:30:06,183 - workout_app - ERROR - Error generating plan: One or more components is not a string or is empty.
+2025-03-28 01:38:09,907 - workout_app - INFO - Processed user input data: {'weight': 65.0, 'height': 1.77, 'age': 25, 'bmi': 20.747550193111813, 'days_per_week': 4, 'sleep_hours': 6.0, 'intensity': -1, 'exercise_type': 0, 'calories': 1200.0, 'protein': 0.3, 'carbohydrate': 0.4, 'fat': 0.3, 'fiber': 16.8, 'equipment': 'none', 'fitness_level': '1', 'rating': 0}
+2025-03-28 01:38:10,237 - workout_app - ERROR - Error generating plan: The feature names should match those that were passed during fit.
+Feature names unseen at fit time:
+- fat
+Feature names seen at fit time, yet now missing:
+- total_fat
+
+2025-03-28 01:44:59,768 - workout_app - INFO - Processed user input data: {'weight': 65.0, 'height': 1.77, 'age': 25, 'bmi': 20.747550193111813, 'days_per_week': 4, 'sleep_hours': 6.0, 'intensity': -1, 'exercise_type': 0, 'calories': 1200.0, 'protein': 0.3, 'carbohydrate': 0.4, 'fat': 0.3, 'fiber': 16.8, 'equipment': 'none', 'fitness_level': '1', 'rating': 0}
+2025-03-28 01:45:01,048 - workout_app - ERROR - Error generating plan: One or more components is not a string or is empty.
+2025-03-28 01:46:25,282 - workout_app - INFO - Processed user input data: {'weight': 65.0, 'height': 1.77, 'age': 25, 'bmi': 20.747550193111813, 'days_per_week': 6, 'sleep_hours': 6.0, 'intensity': -1, 'exercise_type': 0, 'calories': 1200.0, 'protein': 0.3, 'carbohydrate': 0.4, 'fat': 0.3, 'fiber': 16.8, 'equipment': 'none', 'fitness_level': '1', 'rating': 0}
+2025-03-28 01:46:27,425 - workout_app - ERROR - Error generating plan: One or more components is not a string or is empty.
+2025-03-28 01:50:33,630 - workout_app - INFO - Processed user input data: {'weight': 65.0, 'height': 1.77, 'age': 25, 'bmi': 20.747550193111813, 'days_per_week': 6, 'sleep_hours': 6.0, 'intensity': -1, 'exercise_type': 0, 'calories': 1200.0, 'protein': 0.3, 'carbohydrate': 0.4, 'fat': 0.3, 'fiber': 16.8, 'equipment': 'none', 'fitness_level': '1', 'rating': 0}
+2025-03-28 01:50:35,821 - workout_app - ERROR - Error generating plan: One or more components is not a string or is empty.
+2025-03-28 01:59:39,512 - workout_app - INFO - Processed user input data: {'weight': 66.0, 'height': 1.77, 'age': 25, 'bmi': 21.06674327300584, 'days_per_week': 5, 'sleep_hours': 6.0, 'intensity': -1, 'exercise_type': 0, 'calories': 1200.0, 'protein': 0.3, 'carbohydrate': 0.4, 'fat': 0.3, 'fiber': 16.8, 'equipment': 'none', 'fitness_level': '1', 'rating': 0}
+2025-03-28 01:59:40,767 - workout_app - ERROR - Error generating plan: One or more components is not a string or is empty.
+2025-03-28 02:10:26,072 - workout_app - INFO - Processed user input data: {'weight': 65.0, 'height': 1.77, 'age': 25, 'bmi': 20.747550193111813, 'days_per_week': 6, 'sleep_hours': 6.0, 'intensity': -1, 'exercise_type': 0, 'calories': 1200.0, 'protein': 0.3, 'carbohydrate': 0.4, 'fat': 0.3, 'fiber': 16.8, 'equipment': 'none', 'fitness_level': '1', 'rating': 0}
+2025-03-28 02:10:27,709 - workout_app - ERROR - Error generating plan: One or more components is not a string or is empty.
+2025-03-28 02:16:27,417 - workout_app - INFO - Processed user input data: {'weight': 65.0, 'height': 1.77, 'age': 25, 'bmi': 20.747550193111813, 'days_per_week': 6, 'sleep_hours': 6.0, 'intensity': 0, 'exercise_type': 1, 'calories': 1200.0, 'protein': 0.3, 'carbohydrate': 0.4, 'fat': 0.3, 'fiber': 16.8, 'equipment': 'none', 'fitness_level': '2', 'rating': 0}
+2025-03-28 02:16:29,269 - workout_app - ERROR - Error generating plan: One or more components is not a string or is empty.
+2025-03-28 02:29:20,646 - workout_app - INFO - Processed user input data: {'weight': 65.0, 'height': 1.77, 'age': 25, 'bmi': 20.747550193111813, 'days_per_week': 6, 'sleep_hours': 6.0, 'intensity': 0, 'exercise_type': 1, 'calories': 1200.0, 'protein': 0.3, 'carbohydrate': 0.4, 'fat': 0.3, 'fiber': 16.8, 'equipment': 'none', 'fitness_level': '2', 'rating': 0}
+2025-03-28 02:29:27,136 - workout_app - ERROR - Error generating plan: One or more components is not a string or is empty.
+2025-03-28 02:38:03,001 - workout_app - INFO - Processed user input data: {'weight': 65.0, 'height': 1.77, 'age': 25, 'bmi': 20.747550193111813, 'days_per_week': 5, 'sleep_hours': 6.0, 'intensity': 0, 'exercise_type': 1, 'calories': 1200.0, 'protein': 0.3, 'carbohydrate': 0.4, 'fat': 0.3, 'fiber': 16.8, 'equipment': 'none', 'fitness_level': '2', 'rating': 0}
+2025-03-28 02:38:04,909 - workout_app - ERROR - Error generating plan: One or more components is not a string or is empty.
+2025-03-28 13:15:12,334 - workout_app - INFO - Processed user input data: {'weight': 65.0, 'height': 1.77, 'age': 25, 'bmi': 20.747550193111813, 'days_per_week': 5, 'sleep_hours': 6.0, 'intensity': 0, 'exercise_type': 1, 'calories': 1200.0, 'protein': 0.3, 'carbohydrate': 0.4, 'fat': 0.3, 'fiber': 16.8, 'equipment': 'none', 'fitness_level': '1', 'rating': 0}
+2025-03-28 13:15:13,247 - workout_app - ERROR - Error generating plan: One or more components is not a string or is empty.
+2025-03-28 13:19:08,484 - workout_app - INFO - Processed user input data: {'weight': 65.0, 'height': 1.77, 'age': 25, 'bmi': 20.747550193111813, 'days_per_week': 6, 'sleep_hours': 6.0, 'intensity': -1, 'exercise_type': 1, 'calories': 1200.0, 'protein': 0.3, 'carbohydrate': 0.4, 'fat': 0.3, 'fiber': 16.8, 'equipment': 'none', 'fitness_level': '2', 'rating': 0}
+2025-03-28 13:19:09,132 - workout_app - ERROR - Error generating plan: One or more components is not a string or is empty.
+2025-03-28 13:23:01,288 - workout_app - INFO - Processed user input data: {'weight': 65.0, 'height': 1.77, 'age': 25, 'bmi': 20.747550193111813, 'days_per_week': 6, 'sleep_hours': 6.0, 'intensity': 0, 'exercise_type': 1, 'calories': 1200.0, 'protein': 0.3, 'carbohydrate': 0.4, 'fat': 0.3, 'fiber': 16.8, 'equipment': 'none', 'fitness_level': '3', 'rating': 0}
+2025-03-28 13:23:01,718 - workout_app - ERROR - Error generating plan: One or more components is not a string or is empty.
+2025-03-28 14:09:49,896 - workout_app - INFO - Processed user input data: {'weight': 65.0, 'height': 1.77, 'age': 25, 'bmi': 20.747550193111813, 'days_per_week': 6, 'sleep_hours': 6.0, 'intensity': -1, 'exercise_type': 1, 'calories': 1200.0, 'protein': 0.3, 'carbohydrate': 0.4, 'fat': 0.3, 'fiber': 16.8, 'equipment': 'none', 'fitness_level': '2', 'rating': 0}
+2025-03-28 14:13:22,030 - workout_app - INFO - Processed user input data: {'weight': 65.0, 'height': 1.77, 'age': 25, 'bmi': 20.747550193111813, 'days_per_week': 6, 'sleep_hours': 6.0, 'intensity': 0, 'exercise_type': 1, 'calories': 1200.0, 'protein': 0.3, 'carbohydrate': 0.4, 'fat': 0.3, 'fiber': 16.8, 'equipment': 'dumbbells', 'fitness_level': '2', 'rating': 0}
+2025-03-28 15:08:57,309 - workout_app - INFO - Processed user input data: {'weight': 65.0, 'height': 1.77, 'age': 25, 'bmi': 20.747550193111813, 'days_per_week': 6, 'sleep_hours': 6.0, 'intensity': 0, 'exercise_type': 1, 'calories': 1200.0, 'protein': 0.3, 'carbohydrate': 0.4, 'fat': 0.3, 'fiber': 16.8, 'equipment': 'none', 'fitness_level': '2', 'rating': 0}
+2025-03-28 15:45:59,505 - workout_app - ERROR - Error updating plan status: 'bool' object is not callable
+2025-03-28 15:46:10,299 - workout_app - ERROR - Error updating plan status: 'bool' object is not callable
+2025-03-28 16:03:31,517 - workout_app - ERROR - Error updating plan status: 'bool' object is not callable
+2025-03-28 16:03:43,051 - workout_app - ERROR - Error updating plan status: 'bool' object is not callable
+2025-03-28 16:04:05,218 - workout_app - ERROR - Error updating plan status: 'bool' object is not callable
+2025-03-28 16:04:56,030 - workout_app - ERROR - Error updating plan status: 'bool' object is not callable
+2025-03-28 16:05:09,685 - workout_app - ERROR - Error updating plan status: 'bool' object is not callable
+2025-03-28 16:10:28,485 - workout_app - ERROR - Error sending plan to coach: 'bool' object is not callable
+2025-03-28 16:18:04,075 - workout_app - ERROR - Error sending plan to coach: 'bool' object is not callable
+2025-03-28 16:20:45,018 - workout_app - ERROR - Error sending plan to coach: 'bool' object is not callable
+2025-03-28 16:24:35,674 - workout_app - ERROR - Error sending plan to coach: 'bool' object is not callable
+2025-03-29 00:59:14,154 - workout_app - ERROR - Error sending plan to coach: 'bool' object is not callable
+2025-03-29 01:06:13,378 - workout_app - ERROR - Error sending plan to coach: 'bool' object is not callable
+2025-03-29 01:06:27,739 - workout_app - ERROR - Invalid input data: Missing required fields: weight_in_kg, height_in_cm, age, days_per_week, sleep_hours, calorie_target, equipment
+2025-03-29 01:06:27,743 - workout_app - ERROR - Error generating plan: Missing required fields: weight_in_kg, height_in_cm, age, days_per_week, sleep_hours, calorie_target, equipment
+2025-03-29 01:11:53,479 - workout_app - ERROR - Error sending plan to coach: 'bool' object is not callable
+2025-03-29 01:17:25,143 - workout_app - INFO - Processed user input data: {'weight': 67.0, 'height': 1.55, 'age': 45, 'bmi': 27.887617065556707, 'days_per_week': 2, 'sleep_hours': 8.0, 'intensity': -1, 'exercise_type': 1, 'calories': 1300.0, 'protein': 0.4, 'carbohydrate': 0.4, 'fat': 0.2, 'fiber': 18.2, 'equipment': 'none', 'fitness_level': '1', 'rating': 0}
+2025-03-29 01:17:53,206 - workout_app - ERROR - Error sending plan to coach: 'bool' object is not callable
+2025-03-29 01:18:24,417 - workout_app - ERROR - Error sending plan to coach: 'bool' object is not callable
+2025-03-29 01:18:34,190 - workout_app - ERROR - Error sending plan to coach: 'bool' object is not callable
+2025-03-29 01:18:48,969 - workout_app - ERROR - Error sending plan to coach: 'bool' object is not callable
+2025-03-29 01:19:37,445 - workout_app - INFO - Processed user input data: {'weight': 55.0, 'height': 1.46, 'age': 55, 'bmi': 25.802214299118038, 'days_per_week': 5, 'sleep_hours': 7.0, 'intensity': 0, 'exercise_type': 1, 'calories': 1300.0, 'protein': 0.4, 'carbohydrate': 0.4, 'fat': 0.2, 'fiber': 18.2, 'equipment': 'none', 'fitness_level': '1', 'rating': 0}
+2025-03-29 01:20:44,168 - workout_app - ERROR - Error sending plan to coach: 'bool' object is not callable
+2025-03-29 01:30:42,260 - workout_app - ERROR - Error sending plan to coach: 'bool' object is not callable
+2025-03-29 01:31:26,627 - workout_app - ERROR - Error sending plan to coach: 'bool' object is not callable
+2025-03-29 01:31:39,747 - workout_app - ERROR - Error sending plan to coach: 'bool' object is not callable
+2025-03-29 01:31:54,864 - workout_app - ERROR - Error sending plan to coach: 'bool' object is not callable
+2025-03-29 01:41:10,082 - workout_app - ERROR - Error sending plan to coach: TypeError: 'bool' object is not callable
+2025-03-29 01:57:49,767 - workout_app - INFO - Attempting to send plan 7LdVQLZRPEiY4wgKVi9L to coach
+2025-03-29 01:57:49,782 - workout_app - INFO - Plan reference obtained for 7LdVQLZRPEiY4wgKVi9L
+2025-03-29 01:57:50,291 - workout_app - INFO - Plan document retrieved for 7LdVQLZRPEiY4wgKVi9L
+2025-03-29 01:57:51,365 - workout_app - INFO - Plan 7LdVQLZRPEiY4wgKVi9L updated successfully
+2025-03-29 02:33:42,047 - workout_app - INFO - Attempting to send plan Q93slYiQo8L3vdOpkeug to coach
+2025-03-29 02:33:42,079 - workout_app - INFO - Plan reference obtained for Q93slYiQo8L3vdOpkeug
+2025-03-29 02:33:42,572 - workout_app - INFO - Plan document retrieved for Q93slYiQo8L3vdOpkeug
+2025-03-29 02:33:43,650 - workout_app - INFO - Plan Q93slYiQo8L3vdOpkeug updated successfully
+2025-03-29 02:47:22,837 - workout_app - INFO - Received data: plan_id=7LdVQLZRPEiY4wgKVi9L, coach_comment=good, action=approve
+2025-03-29 02:47:23,312 - workout_app - INFO - Updating plan 7LdVQLZRPEiY4wgKVi9L with data: {'coach_comment': 'good', 'status': 'approved', 'updated_at': Sentinel: Value used to set a document field to the server timestamp.}
+2025-03-29 02:47:24,304 - workout_app - INFO - Plan 7LdVQLZRPEiY4wgKVi9L approved successfully
+2025-03-29 02:48:46,259 - workout_app - INFO - Received data: plan_id=Q93slYiQo8L3vdOpkeug, coach_comment=bad, action=reject
+2025-03-29 02:48:46,778 - workout_app - INFO - Updating plan Q93slYiQo8L3vdOpkeug with data: {'coach_comment': 'bad', 'status': 'rejected', 'updated_at': Sentinel: Value used to set a document field to the server timestamp.}
+2025-03-29 02:48:47,740 - workout_app - INFO - Plan Q93slYiQo8L3vdOpkeug rejected successfully
+2025-03-29 02:49:06,294 - workout_app - INFO - Received data: plan_id=trOtb3J7guXAvuiZZi4t, coach_comment=bad, action=reject
+2025-03-29 02:49:06,650 - workout_app - INFO - Updating plan trOtb3J7guXAvuiZZi4t with data: {'coach_comment': 'bad', 'status': 'rejected', 'updated_at': Sentinel: Value used to set a document field to the server timestamp.}
+2025-03-29 02:49:07,744 - workout_app - INFO - Plan trOtb3J7guXAvuiZZi4t rejected successfully
+2025-03-29 02:49:30,317 - workout_app - INFO - Received data: plan_id=LsCF4niRehbGZvMWPUNv, coach_comment=pky, action=reject
+2025-03-29 02:49:30,836 - workout_app - INFO - Updating plan LsCF4niRehbGZvMWPUNv with data: {'coach_comment': 'pky', 'status': 'rejected', 'updated_at': Sentinel: Value used to set a document field to the server timestamp.}
+2025-03-29 02:49:31,851 - workout_app - INFO - Plan LsCF4niRehbGZvMWPUNv rejected successfully
+2025-03-29 02:49:45,897 - workout_app - INFO - Received data: plan_id=MMgtOpfYmw7xNr30oosS, coach_comment=pky, action=reject
+2025-03-29 02:49:46,333 - workout_app - INFO - Updating plan MMgtOpfYmw7xNr30oosS with data: {'coach_comment': 'pky', 'status': 'rejected', 'updated_at': Sentinel: Value used to set a document field to the server timestamp.}
+2025-03-29 02:49:47,413 - workout_app - INFO - Plan MMgtOpfYmw7xNr30oosS rejected successfully
+2025-03-29 02:49:59,753 - workout_app - INFO - Received data: plan_id=bZTu4exUnZJNspU4zUJj, coach_comment=hoday, action=approve
+2025-03-29 02:50:00,216 - workout_app - INFO - Updating plan bZTu4exUnZJNspU4zUJj with data: {'coach_comment': 'hoday', 'status': 'approved', 'updated_at': Sentinel: Value used to set a document field to the server timestamp.}
+2025-03-29 02:50:01,313 - workout_app - INFO - Plan bZTu4exUnZJNspU4zUJj approved successfully
+2025-03-29 02:50:11,184 - workout_app - INFO - Received data: plan_id=2Vms4ay3q6H04WE4jBvl, coach_comment=g, action=approve
+2025-03-29 02:50:11,618 - workout_app - INFO - Updating plan 2Vms4ay3q6H04WE4jBvl with data: {'coach_comment': 'g', 'status': 'approved', 'updated_at': Sentinel: Value used to set a document field to the server timestamp.}
+2025-03-29 02:50:12,712 - workout_app - INFO - Plan 2Vms4ay3q6H04WE4jBvl approved successfully
+2025-03-29 02:54:56,577 - workout_app - INFO - Attempting to delete plan hz5ccSJZmtPpuZ0Eq8DG
+2025-03-29 02:54:58,045 - workout_app - INFO - Plan hz5ccSJZmtPpuZ0Eq8DG deleted successfully
+2025-03-29 02:55:43,768 - workout_app - INFO - Attempting to delete plan FjicRVodGYpnQXrdiTge
+2025-03-29 02:55:45,187 - workout_app - INFO - Plan FjicRVodGYpnQXrdiTge deleted successfully
+2025-03-29 02:55:51,367 - workout_app - INFO - Attempting to delete plan PP6ZT2gs09VagYbaNgMx
+2025-03-29 02:55:52,938 - workout_app - INFO - Plan PP6ZT2gs09VagYbaNgMx deleted successfully
+2025-03-29 02:56:00,189 - workout_app - INFO - Attempting to delete plan UToPeIfyCx5yOaNh1kbp
+2025-03-29 02:56:01,682 - workout_app - INFO - Plan UToPeIfyCx5yOaNh1kbp deleted successfully
+2025-03-29 02:56:08,090 - workout_app - INFO - Attempting to delete plan UwdCvv2Cx4XVE7pPReX9
+2025-03-29 02:56:09,624 - workout_app - INFO - Plan UwdCvv2Cx4XVE7pPReX9 deleted successfully
+2025-03-29 02:57:48,260 - workout_app - INFO - Processed user input data: {'weight': 65.0, 'height': 1.77, 'age': 26, 'bmi': 20.747550193111813, 'days_per_week': 5, 'sleep_hours': 6.0, 'intensity': 0, 'exercise_type': 0, 'calories': 1350.0, 'protein': 0.3, 'carbohydrate': 0.4, 'fat': 0.3, 'fiber': 18.900000000000002, 'equipment': 'none', 'fitness_level': '1', 'rating': 0}
+2025-03-29 03:10:17,525 - workout_app - INFO - Processed user input data: {'weight': 65.0, 'height': 1.77, 'age': 25, 'bmi': 20.747550193111813, 'days_per_week': 5, 'sleep_hours': 6.0, 'intensity': 0, 'exercise_type': 1, 'calories': 1400.0, 'protein': 0.3, 'carbohydrate': 0.4, 'fat': 0.3, 'fiber': 19.6, 'equipment': 'none', 'fitness_level': '3', 'rating': 0}
+2025-03-29 03:10:21,939 - workout_app - INFO - Generating plan: workout_days=21.428571428571427, rest_days=6.571428571428573
+2025-03-29 03:11:25,021 - workout_app - INFO - Attempting to send plan QEMjgrHAvBfeEC09adlt to coach
+2025-03-29 03:11:25,021 - workout_app - INFO - Plan reference obtained for QEMjgrHAvBfeEC09adlt
+2025-03-29 03:11:26,805 - workout_app - INFO - Plan document retrieved for QEMjgrHAvBfeEC09adlt
+2025-03-29 03:11:27,321 - workout_app - INFO - Plan QEMjgrHAvBfeEC09adlt updated successfully
+2025-03-29 03:17:15,484 - workout_app - WARNING - Login failed for admin admin@gmail.com: Invalid credentials
+2025-03-29 03:17:27,286 - workout_app - WARNING - Login failed for admin admin@gmail.com: Invalid credentials
+2025-03-29 03:17:43,972 - workout_app - WARNING - Login failed for admin admin@gmail.com: Invalid credentials
+2025-03-29 03:17:51,872 - workout_app - WARNING - Login failed for admin admin@gmail.com: Invalid credentials
+2025-03-29 03:18:07,272 - workout_app - WARNING - Login failed for admin admin: Invalid credentials
+2025-03-29 03:18:14,877 - workout_app - WARNING - Login failed for admin admin: Invalid credentials
+2025-03-29 03:24:14,030 - workout_app - WARNING - Login failed for admin admin: Invalid credentials
+2025-03-29 03:24:24,436 - workout_app - WARNING - Login failed for admin admin: Invalid credentials
+2025-03-29 03:35:06,849 - workout_app - INFO - Admin admin logged in successfully
+2025-03-29 03:42:31,388 - workout_app - INFO - Processed user input data: {'weight': 65.0, 'height': 1.77, 'age': 25, 'bmi': 20.747550193111813, 'days_per_week': 5, 'sleep_hours': 6.0, 'intensity': 0, 'exercise_type': 1, 'calories': 1350.0, 'protein': 0.3, 'carbohydrate': 0.4, 'fat': 0.3, 'fiber': 18.900000000000002, 'equipment': 'none', 'fitness_level': '1', 'rating': 0}
+2025-03-29 03:42:32,420 - workout_app - INFO - Generating plan: workout_days=21.428571428571427, rest_days=10.571428571428573
+2025-03-29 03:43:55,519 - workout_app - INFO - Attempting to send plan ZQOqPosPjP1WTO8cpTfz to coach
+2025-03-29 03:43:55,519 - workout_app - INFO - Plan reference obtained for ZQOqPosPjP1WTO8cpTfz
+2025-03-29 03:43:57,287 - workout_app - INFO - Plan document retrieved for ZQOqPosPjP1WTO8cpTfz
+2025-03-29 03:43:57,783 - workout_app - INFO - Plan ZQOqPosPjP1WTO8cpTfz updated successfully
+2025-03-29 03:44:53,073 - workout_app - INFO - Attempting to delete plan Q93slYiQo8L3vdOpkeug
+2025-03-29 03:44:54,535 - workout_app - INFO - Plan Q93slYiQo8L3vdOpkeug deleted successfully
+2025-03-29 03:46:52,334 - workout_app - INFO - Received data: plan_id=QEMjgrHAvBfeEC09adlt, coach_comment=pky, action=approve
+2025-03-29 03:46:52,767 - workout_app - INFO - Updating plan QEMjgrHAvBfeEC09adlt with data: {'coach_comment': 'pky', 'status': 'approved', 'updated_at': Sentinel: Value used to set a document field to the server timestamp.}
+2025-03-29 03:46:53,814 - workout_app - INFO - Plan QEMjgrHAvBfeEC09adlt approved successfully
+2025-03-29 03:47:14,266 - workout_app - INFO - Received data: plan_id=ZQOqPosPjP1WTO8cpTfz, coach_comment=pky, action=reject
+2025-03-29 03:47:14,749 - workout_app - INFO - Updating plan ZQOqPosPjP1WTO8cpTfz with data: {'coach_comment': 'pky', 'status': 'rejected', 'updated_at': Sentinel: Value used to set a document field to the server timestamp.}
+2025-03-29 03:47:15,814 - workout_app - INFO - Plan ZQOqPosPjP1WTO8cpTfz rejected successfully
+2025-03-29 14:43:27,843 - workout_app - INFO - User c@gmail.com logged in as customer
+2025-03-29 14:44:43,025 - workout_app - ERROR - Error generating plan: 'dict object' has no attribute 'overview'
+2025-03-29 14:50:35,411 - workout_app - ERROR - Error generating plan: 'dict object' has no attribute 'overview'
+2025-03-29 14:50:45,671 - workout_app - ERROR - Error generating plan: 'dict object' has no attribute 'overview'
+2025-03-29 14:50:55,745 - workout_app - INFO - Plan ZQOqPosPjP1WTO8cpTfz deleted
+2025-03-29 14:51:14,471 - workout_app - INFO - Plan apokiXP03yXcHIevTHRD sent to coach
+2025-03-29 14:51:31,763 - workout_app - INFO - User logged out
+2025-03-29 14:51:38,542 - workout_app - INFO - Admin admin logged in
+2025-03-29 14:51:53,880 - workout_app - INFO - User thilinashalom1@gmail.com logged in as coach
+2025-03-29 14:52:10,174 - workout_app - INFO - Plan apokiXP03yXcHIevTHRD rejected by coach
+2025-03-29 14:52:14,141 - workout_app - INFO - User logged out
+2025-03-29 14:52:20,730 - workout_app - INFO - User c@gmail.com logged in as customer
+2025-03-29 14:53:44,976 - workout_app - ERROR - Error generating plan: 'dict object' has no attribute 'overview'
+2025-03-29 14:58:09,398 - workout_app - INFO - Rendering home page
+2025-03-29 14:58:12,320 - workout_app - INFO - Rendering login page
+2025-03-29 14:58:17,535 - workout_app - INFO - User c@gmail.com logged in as customer
+2025-03-29 14:58:19,295 - workout_app - INFO - Rendering customer dashboard
+2025-03-29 14:58:28,929 - workout_app - INFO - Plan Dxs70SkcvxbubpOozKVc deleted
+2025-03-29 14:58:31,855 - workout_app - INFO - Rendering customer dashboard
+2025-03-29 14:58:35,916 - workout_app - INFO - Plan LtPx5XKaYcM5iIQQDRZc deleted
+2025-03-29 14:58:39,012 - workout_app - INFO - Rendering customer dashboard
+2025-03-29 14:58:42,691 - workout_app - INFO - Plan OoTLYNUVa3drUugtFw2I deleted
+2025-03-29 14:58:45,675 - workout_app - INFO - Rendering customer dashboard
+2025-03-29 14:58:56,466 - workout_app - INFO - Plan apokiXP03yXcHIevTHRD deleted
+2025-03-29 14:58:59,306 - workout_app - INFO - Rendering customer dashboard
+2025-03-29 14:59:04,635 - workout_app - INFO - Plan Y8ol97fwnBTnsEJPaaBH deleted
+2025-03-29 14:59:07,156 - workout_app - INFO - Rendering customer dashboard
+2025-03-29 14:59:09,311 - workout_app - INFO - Rendering generate form
+2025-03-29 14:59:49,244 - workout_app - ERROR - Error generating plan: 'dict object' has no attribute 'overview'
+2025-03-29 15:04:58,528 - workout_app - INFO - Attempting to send plan c1bEzcuYYwfIe3vEULgX to coach
+2025-03-29 15:04:58,530 - workout_app - INFO - Plan reference obtained for c1bEzcuYYwfIe3vEULgX
+2025-03-29 15:04:58,976 - workout_app - INFO - Plan document retrieved for c1bEzcuYYwfIe3vEULgX
+2025-03-29 15:05:00,000 - workout_app - INFO - Plan c1bEzcuYYwfIe3vEULgX updated successfully
+2025-03-29 15:05:18,700 - workout_app - INFO - Admin admin logged in successfully
+2025-03-29 15:05:43,896 - workout_app - INFO - Received data: plan_id=c1bEzcuYYwfIe3vEULgX, coach_comment=nice, action=approve
+2025-03-29 15:05:44,333 - workout_app - INFO - Updating plan c1bEzcuYYwfIe3vEULgX with data: {'coach_comment': 'nice', 'status': 'approved', 'updated_at': Sentinel: Value used to set a document field to the server timestamp.}
+2025-03-29 15:05:45,429 - workout_app - INFO - Plan c1bEzcuYYwfIe3vEULgX approved successfully
+2025-03-29 15:13:40,376 - workout_app - INFO - Rendering home page
+2025-03-29 15:13:42,894 - workout_app - INFO - Rendering login page
+2025-03-29 15:13:49,063 - workout_app - INFO - User thilinashalom1@gmail.com logged in as coach
+2025-03-29 15:13:49,588 - workout_app - INFO - Rendering coach dashboard
+2025-03-29 15:13:51,338 - workout_app - INFO - User logged out
+2025-03-29 15:13:51,349 - workout_app - INFO - Rendering home page
+2025-03-29 15:13:53,057 - workout_app - INFO - Rendering login page
+2025-03-29 15:13:59,711 - workout_app - INFO - Rendering admin login page
+2025-03-29 15:14:03,239 - workout_app - INFO - Admin admin logged in
+2025-03-29 15:14:04,099 - workout_app - INFO - Rendering admin dashboard
+2025-03-29 15:14:09,656 - workout_app - INFO - Rendering login page
+2025-03-29 15:14:14,401 - workout_app - INFO - User c@gmail.com logged in as customer
+2025-03-29 15:14:16,126 - workout_app - INFO - Rendering customer dashboard
+2025-03-29 15:14:20,674 - workout_app - INFO - Rendering generate form
+2025-03-29 15:14:55,969 - workout_app - INFO - Processed form data: {'weight': 65.0, 'height': 1.77, 'age': 22, 'bmi': 20.747550193111813, 'days_per_week': 5, 'sleep_hours': 6.0, 'intensity': 0, 'exercise_type': 2, 'calories': 1300.0, 'protein': 0.4, 'carbohydrate': 0.4, 'fat': 0.2, 'fiber': 18.2, 'equipment': 'none', 'fitness_level': '3', 'rating': 0}
+2025-03-29 15:14:56,832 - workout_app - INFO - Features for prediction: [{'weight': 65.0, 'height': 1.77, 'age': 22, 'bmi': 20.747550193111813, 'days_per_week': 5, 'sleep_hours': 6.0, 'calories': 1300.0, 'protein': 0.4, 'carbohydrate': 0.4, 'fat': 0.2, 'fiber': 18.2, 'intensity': 0, 'exercise_type': 2, 'rating': 0}]
+2025-03-29 15:14:56,879 - workout_app - ERROR - Error generating plan: The feature names should match those that were passed during fit.
+Feature names unseen at fit time:
+- fat
+Feature names seen at fit time, yet now missing:
+- total_fat
+
+2025-03-29 15:18:30,835 - workout_app - INFO - Scaler expected feature names: ['weight' 'height' 'age' 'bmi' 'days_per_week' 'sleep_hours' 'calories'
+ 'protein' 'carbohydrate' 'total_fat' 'fiber' 'intensity' 'exercise_type'
+ 'rating']
+2025-03-29 15:19:09,829 - workout_app - INFO - Rendering home page
+2025-03-29 15:19:13,583 - workout_app - INFO - Rendering login page
+2025-03-29 15:19:19,892 - workout_app - INFO - User c@gmail.com logged in as customer
+2025-03-29 15:19:21,712 - workout_app - INFO - Rendering customer dashboard
+2025-03-29 15:19:25,843 - workout_app - INFO - Rendering generate form
+2025-03-29 15:20:02,757 - workout_app - INFO - Processed form data: {'weight': 65.0, 'height': 1.77, 'age': 22, 'bmi': 20.747550193111813, 'days_per_week': 4, 'sleep_hours': 6.0, 'intensity': 0, 'exercise_type': 1, 'calories': 1200.0, 'protein': 0.3, 'carbohydrate': 0.4, 'total_fat': 0.3, 'fiber': 16.8, 'equipment': 'none', 'fitness_level': '3', 'rating': 0}
+2025-03-29 15:20:03,150 - workout_app - INFO - Features for prediction: [{'weight': 65.0, 'height': 1.77, 'age': 22, 'bmi': 20.747550193111813, 'days_per_week': 4, 'sleep_hours': 6.0, 'calories': 1200.0, 'protein': 0.3, 'carbohydrate': 0.4, 'total_fat': 0.3, 'fiber': 16.8, 'intensity': 0, 'exercise_type': 1, 'rating': 0}]
+2025-03-29 15:20:03,675 - workout_app - INFO - Predicted cluster: 22
+2025-03-29 15:20:04,687 - workout_app - ERROR - Error generating plan: 'dict object' has no attribute 'overview'
+2025-03-29 15:24:29,345 - workout_app - INFO - Scaler expected feature names: ['weight' 'height' 'age' 'bmi' 'days_per_week' 'sleep_hours' 'calories'
+ 'protein' 'carbohydrate' 'total_fat' 'fiber' 'intensity' 'exercise_type'
+ 'rating']
+2025-03-29 15:44:10,061 - workout_app - INFO - Rendering home page
+2025-03-29 15:44:17,193 - workout_app - INFO - Rendering login page
+2025-03-29 15:44:49,150 - workout_app - INFO - User c@gmail.com logged in as customer
+2025-03-29 15:44:50,837 - workout_app - INFO - Rendering customer dashboard
+2025-03-29 15:45:03,556 - workout_app - INFO - Plan WS18th6cCxxOds3btKZz sent to coach
+2025-03-29 15:45:06,447 - workout_app - INFO - Rendering customer dashboard
+2025-03-29 15:45:11,427 - workout_app - INFO - Plan c1bEzcuYYwfIe3vEULgX deleted
+2025-03-29 15:45:14,247 - workout_app - INFO - Rendering customer dashboard
+2025-03-29 15:45:16,116 - workout_app - INFO - Rendering generate form
+2025-03-29 15:45:54,034 - workout_app - INFO - Processed form data: {'weight': 54.0, 'height': 1.65, 'age': 22, 'bmi': 19.834710743801654, 'days_per_week': 5, 'sleep_hours': 6.0, 'intensity': -1, 'exercise_type': 1, 'calories': 1200.0, 'protein': 0.3, 'carbohydrate': 0.4, 'total_fat': 0.3, 'fiber': 16.8, 'equipment': 'none', 'fitness_level': '1', 'rating': 0, 'overview': 0}
+2025-03-29 15:45:54,518 - workout_app - INFO - Features for prediction: [{'weight': 54.0, 'height': 1.65, 'age': 22, 'bmi': 19.834710743801654, 'days_per_week': 5, 'sleep_hours': 6.0, 'calories': 1200.0, 'protein': 0.3, 'carbohydrate': 0.4, 'total_fat': 0.3, 'fiber': 16.8, 'intensity': -1, 'exercise_type': 1, 'rating': 0, 'overview': 0}]
+2025-03-29 15:45:54,563 - workout_app - ERROR - Error generating plan: The feature names should match those that were passed during fit.
+Feature names unseen at fit time:
+- overview
+
+2025-03-29 15:52:39,479 - workout_app - INFO - Scaler expected feature names: ['weight' 'height' 'age' 'bmi' 'days_per_week' 'sleep_hours' 'calories'
+ 'protein' 'carbohydrate' 'total_fat' 'fiber' 'intensity' 'exercise_type'
+ 'rating']
+2025-03-29 15:53:07,302 - workout_app - INFO - Rendering home page
+2025-03-29 15:53:17,527 - workout_app - INFO - Rendering home page
+2025-03-29 15:53:19,073 - workout_app - INFO - Rendering login page
+2025-03-29 15:53:24,218 - workout_app - INFO - User c@gmail.com logged in as customer
+2025-03-29 15:53:25,942 - workout_app - INFO - Rendering customer dashboard
+2025-03-29 15:53:30,337 - workout_app - INFO - Rendering generate form
+2025-03-29 15:54:20,757 - workout_app - INFO - Processed form data: {'weight': 65.0, 'height': 1.77, 'age': 22, 'bmi': 20.747550193111813, 'days_per_week': 4, 'sleep_hours': 6.0, 'intensity': 0, 'exercise_type': 1, 'calories': 1200.0, 'protein': 0.3, 'carbohydrate': 0.4, 'total_fat': 0.3, 'fiber': 16.8, 'equipment': 'none', 'fitness_level': '3', 'rating': 0}
+2025-03-29 15:54:21,445 - workout_app - INFO - Features for prediction: [{'weight': 65.0, 'height': 1.77, 'age': 22, 'bmi': 20.747550193111813, 'days_per_week': 4, 'sleep_hours': 6.0, 'calories': 1200.0, 'protein': 0.3, 'carbohydrate': 0.4, 'total_fat': 0.3, 'fiber': 16.8, 'intensity': 0, 'exercise_type': 1, 'rating': 0}]
+2025-03-29 15:54:22,280 - workout_app - INFO - Predicted cluster: 22
+2025-03-29 15:54:22,569 - workout_app - INFO - Workout plan generated successfully
+2025-03-29 15:54:22,571 - workout_app - INFO - Generated workout plan
+2025-03-29 15:54:22,573 - workout_app - INFO - Nutrition plan generated successfully
+2025-03-29 15:54:22,573 - workout_app - INFO - Generated nutrition plan
+2025-03-29 15:54:22,575 - workout_app - INFO - Formatted complete plan successfully
+2025-03-29 15:54:22,576 - workout_app - INFO - Formatted complete plan
+2025-03-29 15:54:23,242 - workout_app - INFO - Added plan to Firestore
+2025-03-29 15:54:23,308 - workout_app - ERROR - Error generating plan: 'dict object' has no attribute 'meal_plan'
+2025-03-29 15:58:27,587 - workout_app - INFO - Rendering home page
+2025-03-29 15:58:31,725 - workout_app - INFO - Rendering home page
+2025-03-29 15:58:34,455 - workout_app - INFO - Rendering login page
+2025-03-29 15:58:39,182 - workout_app - INFO - User c@gmail.com logged in as customer
+2025-03-29 15:58:40,931 - workout_app - INFO - Rendering customer dashboard
+2025-03-29 15:59:54,733 - workout_app - INFO - Plan UCE70h23MTJ6D5KrlZtv sent to coach
+2025-03-29 15:59:57,884 - workout_app - INFO - Rendering customer dashboard
+2025-03-29 15:59:59,511 - workout_app - INFO - User logged out
+2025-03-29 15:59:59,544 - workout_app - INFO - Rendering home page
+2025-03-29 16:00:01,059 - workout_app - INFO - Rendering login page
+2025-03-29 16:00:04,774 - workout_app - INFO - User thilinashalom1@gmail.com logged in as coach
+2025-03-29 16:00:07,264 - workout_app - INFO - Rendering coach dashboard
+2025-03-29 16:00:19,105 - workout_app - INFO - Plan UCE70h23MTJ6D5KrlZtv approved by coach
+2025-03-29 16:00:22,022 - workout_app - INFO - Rendering coach dashboard
+2025-03-29 16:00:33,207 - workout_app - INFO - Plan WS18th6cCxxOds3btKZz rejected by coach
+2025-03-29 16:00:35,144 - workout_app - INFO - Rendering coach dashboard
+2025-03-29 16:00:36,693 - workout_app - INFO - User logged out
+2025-03-29 16:00:36,704 - workout_app - INFO - Rendering home page
+2025-03-29 16:00:38,144 - workout_app - INFO - Rendering login page
+2025-03-29 16:00:41,803 - workout_app - INFO - User c@gmail.com logged in as customer
+2025-03-29 16:00:43,527 - workout_app - INFO - Rendering customer dashboard
+2025-03-29 16:00:51,644 - workout_app - INFO - Plan WS18th6cCxxOds3btKZz deleted
+2025-03-29 16:00:54,777 - workout_app - INFO - Rendering customer dashboard
+2025-03-29 16:00:58,104 - workout_app - INFO - Rendering generate form
+2025-03-29 16:14:37,736 - workout_app - INFO - Scaler expected feature names: ['weight' 'height' 'age' 'bmi' 'days_per_week' 'sleep_hours' 'calories'
+ 'protein' 'carbohydrate' 'total_fat' 'fiber' 'intensity' 'exercise_type'
+ 'rating']
+2025-03-29 16:17:10,152 - workout_app - INFO - Rendering generate form
+2025-03-29 16:17:58,362 - workout_app - INFO - Processed form data: {'weight': 65.0, 'height': 1.77, 'age': 22, 'bmi': 20.747550193111813, 'days_per_week': 5, 'sleep_hours': 6.0, 'intensity': 0, 'exercise_type': 1, 'calories': 1200.0, 'protein': 0.3, 'carbohydrate': 0.4, 'total_fat': 0.3, 'fiber': 16.8, 'equipment': 'none', 'fitness_level': '1', 'rating': 0}
+2025-03-29 16:17:58,877 - workout_app - INFO - Features for prediction: [{'weight': 65.0, 'height': 1.77, 'age': 22, 'bmi': 20.747550193111813, 'days_per_week': 5, 'sleep_hours': 6.0, 'calories': 1200.0, 'protein': 0.3, 'carbohydrate': 0.4, 'total_fat': 0.3, 'fiber': 16.8, 'intensity': 0, 'exercise_type': 1, 'rating': 0}]
+2025-03-29 16:17:59,612 - workout_app - INFO - Predicted cluster: 22
+2025-03-29 16:18:00,133 - workout_app - INFO - Workout plan generated successfully
+2025-03-29 16:18:00,136 - workout_app - INFO - Generated workout plan
+2025-03-29 16:18:00,141 - workout_app - INFO - Nutrition plan generated successfully
+2025-03-29 16:18:00,144 - workout_app - INFO - Generated nutrition plan
+2025-03-29 16:18:00,150 - workout_app - INFO - Formatted complete plan successfully
+2025-03-29 16:18:00,150 - workout_app - INFO - Formatted complete plan
+2025-03-29 16:18:05,221 - workout_app - INFO - Added plan to Firestore
+2025-03-29 16:18:05,417 - workout_app - INFO - Plan generated with ID E92P8hpqJEkpubAGArbd, returning response: <class 'str'>
+2025-03-29 16:19:01,665 - workout_app - INFO - Plan E92P8hpqJEkpubAGArbd sent to coach
+2025-03-29 16:19:06,836 - workout_app - INFO - Rendering customer dashboard
+2025-03-29 16:20:58,025 - workout_app - INFO - User logged out
+2025-03-29 16:20:58,195 - workout_app - INFO - Rendering home page
+2025-03-29 16:21:06,150 - workout_app - INFO - Rendering home page
+2025-03-29 16:21:07,785 - workout_app - INFO - Rendering login page
+2025-03-29 16:21:17,848 - workout_app - INFO - User thilinashalom1@gmail.com logged in as coach
+2025-03-29 16:21:19,960 - workout_app - INFO - Rendering coach dashboard
+2025-03-29 16:22:16,840 - workout_app - INFO - Plan E92P8hpqJEkpubAGArbd approved by coach
+2025-03-29 16:22:18,918 - workout_app - INFO - Rendering coach dashboard
+2025-03-29 16:22:20,598 - workout_app - INFO - User logged out
+2025-03-29 16:22:20,763 - workout_app - INFO - Rendering home page
+2025-03-29 16:22:22,538 - workout_app - INFO - Rendering login page
+2025-03-29 16:22:27,016 - workout_app - INFO - User c@gmail.com logged in as customer
+2025-03-29 16:22:28,773 - workout_app - INFO - Rendering customer dashboard
+2025-03-29 16:22:37,691 - workout_app - INFO - Plan 7LdVQLZRPEiY4wgKVi9L deleted
+2025-03-29 16:22:40,928 - workout_app - INFO - Rendering customer dashboard
+2025-03-29 16:22:43,932 - workout_app - INFO - User logged out
+2025-03-29 16:22:43,948 - workout_app - INFO - Rendering home page
+2025-03-29 16:22:45,803 - workout_app - INFO - Rendering login page
+2025-03-29 16:22:59,769 - workout_app - INFO - Rendering admin login page
+2025-03-29 16:23:03,043 - workout_app - INFO - Admin admin logged in
+2025-03-29 16:23:03,814 - workout_app - INFO - Rendering admin dashboard
+2025-03-29 16:24:41,937 - workout_app - INFO - Coach john@gmail.com registered by admin
+2025-03-29 16:25:01,977 - workout_app - INFO - Rendering admin dashboard
+2025-03-29 16:47:12,583 - workout_app - INFO - Scaler expected feature names: ['weight' 'height' 'age' 'bmi' 'days_per_week' 'sleep_hours' 'calories'
+ 'protein' 'carbohydrate' 'total_fat' 'fiber' 'intensity' 'exercise_type'
+ 'rating']
+2025-03-29 16:47:16,978 - workout_app - INFO - Scaler expected feature names: ['weight' 'height' 'age' 'bmi' 'days_per_week' 'sleep_hours' 'calories'
+ 'protein' 'carbohydrate' 'total_fat' 'fiber' 'intensity' 'exercise_type'
+ 'rating']
+2025-03-29 16:47:20,252 - workout_app - INFO - Rendering admin dashboard
+2025-03-29 16:47:40,874 - workout_app - INFO - Rendering admin dashboard
+2025-03-29 16:47:44,975 - workout_app - INFO - Fetched details for coach maroons@gmail.com
+2025-03-29 16:48:09,521 - workout_app - INFO - Fetched details for coach thilinashalom1@gmail.com
+2025-03-29 16:48:32,689 - workout_app - INFO - Coach thilinashalom1@gmail.com updated successfully
+2025-03-29 16:48:35,580 - workout_app - INFO - Rendering admin dashboard
+2025-03-29 16:48:39,776 - workout_app - INFO - Fetched details for coach thilinashalom1@gmail.com
+2025-03-29 16:49:40,365 - workout_app - INFO - Coach thilinashalom1@gmail.com updated successfully
+2025-03-29 16:49:42,410 - workout_app - INFO - Rendering admin dashboard
+2025-03-29 16:49:49,479 - workout_app - INFO - Fetched details for coach john@gmail.com
+2025-03-29 16:50:00,476 - workout_app - INFO - Coach john@gmail.com updated successfully
+2025-03-29 16:50:02,811 - workout_app - INFO - Rendering admin dashboard
+2025-03-29 16:50:09,691 - workout_app - INFO - Coach john@gmail.com deleted by admin
+2025-03-29 16:50:11,417 - workout_app - INFO - Rendering admin dashboard
+2025-03-29 17:01:41,515 - workout_app - INFO - Scaler expected feature names: ['weight' 'height' 'age' 'bmi' 'days_per_week' 'sleep_hours' 'calories'
+ 'protein' 'carbohydrate' 'total_fat' 'fiber' 'intensity' 'exercise_type'
+ 'rating']
+2025-03-29 17:02:25,320 - workout_app - INFO - Rendering admin dashboard
+2025-03-29 17:02:27,807 - workout_app - INFO - Rendering admin dashboard
+2025-03-29 17:02:34,412 - workout_app - INFO - Password reset link generated for maroons@gmail.com: https://hdproject-6e51c.firebaseapp.com/__/auth/action?mode=resetPassword&oobCode=j5ZFRTE7HmDQzp_DRNDR7RMDZY1q51w86tAksRkpBH0AAAGV4azR1Q&apiKey=AIzaSyCmGMQlf5BTu8apa3kBg-5RaSvlnJS2p0U&lang=en
+2025-03-29 17:02:34,412 - workout_app - INFO - Password reset initiated for coach maroons@gmail.com
+2025-03-29 17:02:52,190 - workout_app - INFO - Password reset link generated for thilinashalom1@gmail.com: https://hdproject-6e51c.firebaseapp.com/__/auth/action?mode=resetPassword&oobCode=1Ja-opWtg20uSKJWrjCA2I71WevQcXHLSDad8Ls_qrEAAAGV4a0Xbg&apiKey=AIzaSyCmGMQlf5BTu8apa3kBg-5RaSvlnJS2p0U&lang=en
+2025-03-29 17:02:52,197 - workout_app - INFO - Password reset initiated for coach thilinashalom1@gmail.com
+2025-03-29 17:43:53,524 - workout_app - INFO - Scaler expected feature names: ['weight' 'height' 'age' 'bmi' 'days_per_week' 'sleep_hours' 'calories'
+ 'protein' 'carbohydrate' 'total_fat' 'fiber' 'intensity' 'exercise_type'
+ 'rating']
+2025-03-29 17:44:00,036 - workout_app - INFO - Scaler expected feature names: ['weight' 'height' 'age' 'bmi' 'days_per_week' 'sleep_hours' 'calories'
+ 'protein' 'carbohydrate' 'total_fat' 'fiber' 'intensity' 'exercise_type'
+ 'rating']
+2025-03-29 17:44:40,870 - workout_app - INFO - Rendering home page
+2025-03-29 17:44:44,455 - workout_app - INFO - Rendering admin login page
+2025-03-29 17:44:54,456 - workout_app - INFO - Admin admin logged in
+2025-03-29 17:44:55,266 - workout_app - INFO - Rendering admin dashboard
+2025-03-29 17:45:02,028 - workout_app - INFO - Password reset link generated for thilinashalom1@gmail.com: https://hdproject-6e51c.firebaseapp.com/__/auth/action?mode=resetPassword&oobCode=C7ltsBOpe2UHlcTXB-PCM1JXY5W9cJlzu72ALHxhl1IAAAGV4dOxyQ&apiKey=AIzaSyCmGMQlf5BTu8apa3kBg-5RaSvlnJS2p0U&lang=en
+2025-03-29 17:45:04,570 - workout_app - ERROR - Failed to send email to thilinashalom1@gmail.com: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials d9443c01a7336-2291eec7bf9sm34918095ad.20 - gsmtp')
+2025-03-29 17:45:04,570 - workout_app - ERROR - Error resetting password for coach thilinashalom1@gmail.com: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials d9443c01a7336-2291eec7bf9sm34918095ad.20 - gsmtp')
+2025-03-29 17:45:52,334 - workout_app - INFO - Rendering admin dashboard
+2025-03-29 17:45:58,126 - workout_app - INFO - Rendering admin dashboard
+2025-03-29 17:46:09,945 - workout_app - INFO - Password reset link generated for thilinashalom1@gmail.com: https://hdproject-6e51c.firebaseapp.com/__/auth/action?mode=resetPassword&oobCode=HosDniDx5AzNyXtqMh0RXbrm0SIA932AVqYdOUkiyTEAAAGV4dS6tw&apiKey=AIzaSyCmGMQlf5BTu8apa3kBg-5RaSvlnJS2p0U&lang=en
+2025-03-29 17:46:12,632 - workout_app - ERROR - Failed to send email to thilinashalom1@gmail.com: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 41be03b00d2f7-af93ba10871sm2679144a12.73 - gsmtp')
+2025-03-29 17:46:12,632 - workout_app - ERROR - Error resetting password for coach thilinashalom1@gmail.com: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 41be03b00d2f7-af93ba10871sm2679144a12.73 - gsmtp')
+2025-03-29 17:47:31,906 - workout_app - INFO - Rendering admin dashboard
+2025-03-29 17:47:33,058 - workout_app - INFO - Rendering admin dashboard
+2025-03-29 17:47:44,304 - workout_app - INFO - Rendering admin dashboard
+2025-03-29 17:47:51,473 - workout_app - INFO - Password reset link generated for thilinashalom1@gmail.com: https://hdproject-6e51c.firebaseapp.com/__/auth/action?mode=resetPassword&oobCode=HXjhtP1Xar4F1UjKEkqK2yVfIMGImS3whQxIEsrd7dMAAAGV4dZHGw&apiKey=AIzaSyCmGMQlf5BTu8apa3kBg-5RaSvlnJS2p0U&lang=en
+2025-03-29 17:47:54,493 - workout_app - ERROR - Failed to send email to thilinashalom1@gmail.com: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 41be03b00d2f7-af93b8acd9esm3173329a12.49 - gsmtp')
+2025-03-29 17:47:54,493 - workout_app - ERROR - Error resetting password for coach thilinashalom1@gmail.com: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 41be03b00d2f7-af93b8acd9esm3173329a12.49 - gsmtp')
+2025-03-29 18:31:08,770 - workout_app - INFO - Scaler expected feature names: ['weight' 'height' 'age' 'bmi' 'days_per_week' 'sleep_hours' 'calories'
+ 'protein' 'carbohydrate' 'total_fat' 'fiber' 'intensity' 'exercise_type'
+ 'rating']
+2025-03-29 18:31:22,904 - workout_app - INFO - Scaler expected feature names: ['weight' 'height' 'age' 'bmi' 'days_per_week' 'sleep_hours' 'calories'
+ 'protein' 'carbohydrate' 'total_fat' 'fiber' 'intensity' 'exercise_type'
+ 'rating']
+2025-03-29 18:31:55,133 - workout_app - INFO - Rendering home page
+2025-03-29 18:32:02,181 - workout_app - INFO - Rendering admin login page
+2025-03-29 18:32:14,231 - workout_app - INFO - Admin admin logged in
+2025-03-29 18:32:14,816 - workout_app - INFO - Rendering admin dashboard
+2025-03-29 18:32:17,986 - workout_app - INFO - Rendering admin dashboard
+2025-03-29 18:32:24,014 - workout_app - INFO - Password reset link generated for thilinashalom1@gmail.com: https://hdproject-6e51c.firebaseapp.com/__/auth/action?mode=resetPassword&oobCode=kEy551yKDKUR7EbUumrwzosvKc4fuYHnTFjC3dUuzaUAAAGV4f8OIA&apiKey=AIzaSyCmGMQlf5BTu8apa3kBg-5RaSvlnJS2p0U&lang=en
+2025-03-29 18:32:27,581 - workout_app - INFO - Email sent successfully to thilinashalom1@gmail.com
+2025-03-29 18:32:27,581 - workout_app - INFO - Password reset initiated for coach thilinashalom1@gmail.com
+2025-03-29 18:33:15,570 - workout_app - INFO - Fetched details for coach thilinashalom1@gmail.com
+2025-03-29 18:34:20,578 - workout_app - INFO - Fetched details for coach thilinashalom1@gmail.com
+2025-03-29 18:34:28,363 - workout_app - INFO - Coach thilinashalom1@gmail.com updated successfully
+2025-03-29 18:34:30,492 - workout_app - INFO - Rendering admin dashboard
+2025-03-29 18:35:20,078 - workout_app - INFO - Rendering admin dashboard
+2025-03-29 18:35:51,902 - workout_app - INFO - Rendering admin login page
+2025-03-29 18:35:54,902 - workout_app - INFO - Rendering login page
+2025-03-29 18:36:00,642 - workout_app - INFO - User c@gmail.com logged in as customer
+2025-03-29 18:36:02,259 - workout_app - INFO - Rendering customer dashboard
+2025-03-29 18:37:22,501 - workout_app - INFO - User logged out
+2025-03-29 18:37:22,533 - workout_app - INFO - Rendering home page
+2025-03-29 18:37:24,782 - workout_app - INFO - Rendering admin login page
+2025-03-29 18:37:32,149 - workout_app - INFO - Admin admin logged in
+2025-03-29 18:37:32,655 - workout_app - INFO - Rendering admin dashboard
+2025-03-29 18:38:21,895 - workout_app - INFO - Fetched details for coach 123@gmail.com
+2025-03-29 18:38:31,306 - workout_app - INFO - Coach 123@gmail.com updated successfully
+2025-03-29 18:38:33,175 - workout_app - INFO - Rendering admin dashboard
+2025-03-29 18:39:10,967 - workout_app - INFO - Fetched details for coach maroons@gmail.com
+2025-03-29 18:39:17,534 - workout_app - INFO - Coach maroons@gmail.com updated successfully
+2025-03-29 18:39:19,331 - workout_app - INFO - Rendering admin dashboard
+2025-03-29 18:39:34,929 - workout_app - INFO - Rendering admin dashboard
+2025-03-29 18:41:57,575 - workout_app - INFO - Rendering admin dashboard
+2025-03-29 18:42:00,419 - workout_app - INFO - Rendering admin login page
+2025-03-29 18:42:04,410 - workout_app - INFO - Rendering home page
+2025-03-29 18:50:05,547 - workout_app - INFO - Scaler expected feature names: ['weight' 'height' 'age' 'bmi' 'days_per_week' 'sleep_hours' 'calories'
+ 'protein' 'carbohydrate' 'total_fat' 'fiber' 'intensity' 'exercise_type'
+ 'rating']
+2025-03-29 18:50:10,141 - workout_app - INFO - Scaler expected feature names: ['weight' 'height' 'age' 'bmi' 'days_per_week' 'sleep_hours' 'calories'
+ 'protein' 'carbohydrate' 'total_fat' 'fiber' 'intensity' 'exercise_type'
+ 'rating']
+2025-03-29 18:50:22,051 - workout_app - INFO - Rendering home page
+2025-03-29 18:50:30,640 - workout_app - INFO - Rendering login page
+2025-03-29 18:50:42,453 - workout_app - INFO - User c@gmail.com logged in as customer
+2025-03-29 18:50:44,134 - workout_app - INFO - Rendering customer dashboard
+2025-03-29 18:50:48,259 - workout_app - INFO - Rendering generate form
+2025-03-29 18:51:39,513 - workout_app - INFO - Processed form data: {'weight': 11.0, 'height': 0.15, 'age': 11, 'bmi': 488.8888888888889, 'days_per_week': 3, 'sleep_hours': 6.0, 'intensity': 0, 'exercise_type': 2, 'calories': 2300.0, 'protein': 0.4, 'carbohydrate': 0.4, 'total_fat': 0.2, 'fiber': 32.2, 'equipment': 'none', 'fitness_level': '4', 'rating': 0}
+2025-03-29 18:51:40,109 - workout_app - INFO - Features for prediction: [{'weight': 11.0, 'height': 0.15, 'age': 11, 'bmi': 488.8888888888889, 'days_per_week': 3, 'sleep_hours': 6.0, 'calories': 2300.0, 'protein': 0.4, 'carbohydrate': 0.4, 'total_fat': 0.2, 'fiber': 32.2, 'intensity': 0, 'exercise_type': 2, 'rating': 0}]
+2025-03-29 18:51:40,469 - workout_app - INFO - Predicted cluster: 17
+2025-03-29 18:51:40,762 - workout_app - INFO - Workout plan generated successfully
+2025-03-29 18:51:40,764 - workout_app - INFO - Generated workout plan
+2025-03-29 18:51:40,765 - workout_app - INFO - Nutrition plan generated successfully
+2025-03-29 18:51:40,765 - workout_app - INFO - Generated nutrition plan
+2025-03-29 18:51:40,766 - workout_app - INFO - Formatted complete plan successfully
+2025-03-29 18:51:40,767 - workout_app - INFO - Formatted complete plan
+2025-03-29 18:51:41,345 - workout_app - INFO - Added plan to Firestore
+2025-03-29 18:51:41,372 - workout_app - INFO - Plan generated with ID hrPk7iBODDOtlOMOGRV4, returning response: <class 'str'>
+2025-03-29 18:52:01,960 - workout_app - INFO - Plan hrPk7iBODDOtlOMOGRV4 sent to coach
+2025-03-29 18:52:08,486 - workout_app - INFO - Rendering customer dashboard
+2025-03-29 18:52:22,586 - workout_app - INFO - User logged out
+2025-03-29 18:52:22,605 - workout_app - INFO - Rendering home page
+2025-03-29 18:52:24,131 - workout_app - INFO - Rendering login page
+2025-03-29 18:52:30,874 - workout_app - INFO - User thilinashalom1@gmail.com logged in as coach
+2025-03-29 18:52:32,416 - workout_app - INFO - Rendering coach dashboard
+2025-03-29 18:52:49,095 - workout_app - INFO - Plan hrPk7iBODDOtlOMOGRV4 approved by coach
+2025-03-29 18:52:50,891 - workout_app - INFO - Rendering coach dashboard
+2025-03-29 18:52:52,800 - workout_app - INFO - User logged out
+2025-03-29 18:52:52,817 - workout_app - INFO - Rendering home page
+2025-03-29 18:52:54,864 - workout_app - INFO - Rendering registration page
+2025-03-29 18:53:12,434 - workout_app - INFO - User c1@gmail.com registered as customer
+2025-03-29 18:53:12,447 - workout_app - INFO - Rendering login page
+2025-03-29 18:53:21,288 - workout_app - INFO - User c1@gmail.com logged in as customer
+2025-03-29 18:53:22,857 - workout_app - INFO - Rendering customer dashboard
+2025-03-29 18:53:28,341 - workout_app - INFO - User logged out
+2025-03-29 18:53:28,382 - workout_app - INFO - Rendering home page
+2025-03-29 18:53:29,853 - workout_app - INFO - Rendering admin login page
+2025-03-29 18:53:35,431 - workout_app - INFO - Admin admin logged in
+2025-03-29 18:53:36,140 - workout_app - INFO - Rendering admin dashboard
+2025-03-29 18:54:22,777 - workout_app - ERROR - Error registering coach: The user with the provided email already exists (EMAIL_EXISTS).
+2025-03-29 18:54:35,445 - workout_app - INFO - Coach john1@gmail.com registered by admin
+2025-03-29 18:54:42,100 - workout_app - INFO - Rendering admin dashboard
+2025-03-30 00:11:53,874 - workout_app - INFO - Scaler expected feature names: ['weight' 'height' 'age' 'bmi' 'days_per_week' 'sleep_hours' 'calories'
+ 'protein' 'carbohydrate' 'total_fat' 'fiber' 'intensity' 'exercise_type'
+ 'rating']
+2025-03-30 00:11:59,224 - workout_app - INFO - Scaler expected feature names: ['weight' 'height' 'age' 'bmi' 'days_per_week' 'sleep_hours' 'calories'
+ 'protein' 'carbohydrate' 'total_fat' 'fiber' 'intensity' 'exercise_type'
+ 'rating']
+2025-03-30 00:12:10,437 - workout_app - INFO - Rendering home page
+2025-03-30 00:12:18,889 - workout_app - INFO - Rendering login page
+2025-03-30 00:12:38,287 - workout_app - INFO - User c@gmail.com logged in as customer
+2025-03-30 00:12:40,568 - workout_app - INFO - Rendering customer dashboard
+2025-03-30 00:17:44,388 - workout_app - INFO - Rendering generate form
+2025-03-30 00:19:39,307 - workout_app - INFO - Processed form data: {'weight': 65.0, 'height': 1.77, 'age': 25, 'bmi': 20.747550193111813, 'days_per_week': 2, 'sleep_hours': 6.0, 'intensity': 0, 'exercise_type': 3, 'calories': 1300.0, 'protein': 0.3, 'carbohydrate': 0.4, 'total_fat': 0.3, 'fiber': 18.2, 'equipment': 'dumbbells', 'fitness_level': '3', 'rating': 0}
+2025-03-30 00:19:39,617 - workout_app - INFO - Features for prediction: [{'weight': 65.0, 'height': 1.77, 'age': 25, 'bmi': 20.747550193111813, 'days_per_week': 2, 'sleep_hours': 6.0, 'calories': 1300.0, 'protein': 0.3, 'carbohydrate': 0.4, 'total_fat': 0.3, 'fiber': 18.2, 'intensity': 0, 'exercise_type': 3, 'rating': 0}]
+2025-03-30 00:19:40,029 - workout_app - INFO - Predicted cluster: 14
+2025-03-30 00:19:40,427 - workout_app - INFO - Workout plan generated successfully
+2025-03-30 00:19:40,428 - workout_app - INFO - Generated workout plan
+2025-03-30 00:19:40,429 - workout_app - INFO - Nutrition plan generated successfully
+2025-03-30 00:19:40,429 - workout_app - INFO - Generated nutrition plan
+2025-03-30 00:19:40,429 - workout_app - INFO - Formatted complete plan successfully
+2025-03-30 00:19:40,431 - workout_app - INFO - Formatted complete plan
+2025-03-30 00:19:42,984 - workout_app - INFO - Added plan to Firestore
+2025-03-30 00:19:43,169 - workout_app - INFO - Plan generated with ID 2tyVQgfyMlXwhaZqIhzC, returning response: <class 'str'>
+2025-03-30 00:22:08,401 - workout_app - INFO - Rendering customer dashboard
+2025-03-30 00:22:11,138 - workout_app - INFO - User logged out
+2025-03-30 00:22:11,163 - workout_app - INFO - Rendering home page
+2025-03-30 00:22:13,618 - workout_app - INFO - Rendering login page
+2025-03-30 00:22:21,587 - workout_app - INFO - User thilinashalom1@gmail.com logged in as coach
+2025-03-30 00:22:23,664 - workout_app - INFO - Rendering coach dashboard
+2025-03-30 00:23:58,274 - workout_app - INFO - Plan 8lflSNxAm4qHamL3hSOm approved by coach
+2025-03-30 00:24:00,090 - workout_app - INFO - Plan 8lflSNxAm4qHamL3hSOm approved by coach
+2025-03-30 00:24:01,303 - workout_app - INFO - Rendering coach dashboard
+2025-03-30 00:24:04,361 - workout_app - INFO - Rendering coach dashboard
+2025-03-30 00:24:47,999 - workout_app - INFO - User logged out
+2025-03-30 00:24:48,020 - workout_app - INFO - Rendering home page
+2025-03-30 00:25:07,648 - workout_app - INFO - Rendering login page
+2025-03-30 00:35:54,153 - workout_app - INFO - Scaler expected feature names: ['weight' 'height' 'age' 'bmi' 'days_per_week' 'sleep_hours' 'calories'
+ 'protein' 'carbohydrate' 'total_fat' 'fiber' 'intensity' 'exercise_type'
+ 'rating']
+2025-03-30 00:36:56,434 - workout_app - INFO - Rendering home page
+2025-03-30 00:37:04,805 - workout_app - INFO - Rendering registration page
+2025-03-30 00:37:07,014 - workout_app - INFO - Rendering login page
+2025-03-30 00:37:13,847 - workout_app - INFO - User c@gmail.com logged in as customer
+2025-03-30 00:37:16,261 - workout_app - INFO - Rendering customer dashboard
+2025-03-30 00:37:24,411 - workout_app - INFO - Rendering generate form
+2025-03-30 00:38:41,060 - workout_app - INFO - Processed form data: {'weight': 65.0, 'height': 1.77, 'age': 25, 'bmi': 20.747550193111813, 'days_per_week': 4, 'sleep_hours': 6.0, 'intensity': 0, 'exercise_type': 1, 'calories': 1300.0, 'protein': 0.5, 'carbohydrate': 0.1, 'total_fat': 0.4, 'fiber': 18.2, 'equipment': 'none', 'fitness_level': '3', 'rating': 0}
+2025-03-30 00:38:41,717 - workout_app - INFO - Features for prediction: [{'weight': 65.0, 'height': 1.77, 'age': 25, 'bmi': 20.747550193111813, 'days_per_week': 4, 'sleep_hours': 6.0, 'calories': 1300.0, 'protein': 0.5, 'carbohydrate': 0.1, 'total_fat': 0.4, 'fiber': 18.2, 'intensity': 0, 'exercise_type': 1, 'rating': 0}]
+2025-03-30 00:38:42,140 - workout_app - INFO - Predicted cluster: 22
+2025-03-30 00:38:42,359 - workout_app - INFO - Workout plan generated successfully
+2025-03-30 00:38:42,360 - workout_app - INFO - Generated workout plan
+2025-03-30 00:38:42,362 - workout_app - INFO - Generating nutrition plan with user_data: {'weight': 65.0, 'height': 1.77, 'age': 25, 'bmi': 20.747550193111813, 'days_per_week': 4, 'sleep_hours': 6.0, 'intensity': 0, 'exercise_type': 1, 'calories': 1300.0, 'protein': 0.5, 'carbohydrate': 0.1, 'total_fat': 0.4, 'fiber': 18.2, 'equipment': 'none', 'fitness_level': '3', 'rating': 0}
+2025-03-30 00:38:42,362 - workout_app - INFO - Nutrition plan generated successfully
+2025-03-30 00:38:42,363 - workout_app - INFO - Generated nutrition plan
+2025-03-30 00:38:42,364 - workout_app - INFO - Formatted complete plan successfully
+2025-03-30 00:38:42,364 - workout_app - INFO - Formatted complete plan
+2025-03-30 00:38:44,541 - workout_app - INFO - Added plan to Firestore
+2025-03-30 00:38:44,598 - workout_app - INFO - Plan generated with ID xFFek6Q6dweObnYTlcZw, returning response: <class 'str'>
+2025-03-30 00:39:06,609 - workout_app - INFO - Rendering customer dashboard
+2025-03-30 00:54:14,113 - workout_app - INFO - Scaler expected feature names: ['weight' 'height' 'age' 'bmi' 'days_per_week' 'sleep_hours' 'calories'
+ 'protein' 'carbohydrate' 'total_fat' 'fiber' 'intensity' 'exercise_type'
+ 'rating']
+2025-03-30 00:54:19,121 - workout_app - INFO - Scaler expected feature names: ['weight' 'height' 'age' 'bmi' 'days_per_week' 'sleep_hours' 'calories'
+ 'protein' 'carbohydrate' 'total_fat' 'fiber' 'intensity' 'exercise_type'
+ 'rating']
+2025-03-30 00:54:54,243 - workout_app - INFO - Rendering customer dashboard
+2025-03-30 00:55:02,010 - workout_app - INFO - Plan 2tyVQgfyMlXwhaZqIhzC deleted
+2025-03-30 00:55:05,758 - workout_app - INFO - Rendering customer dashboard
+2025-03-30 00:55:10,724 - workout_app - INFO - Plan xFFek6Q6dweObnYTlcZw deleted
+2025-03-30 00:55:14,143 - workout_app - INFO - Rendering customer dashboard
+2025-03-30 00:55:16,509 - workout_app - INFO - Rendering generate form
+2025-03-30 00:56:08,776 - workout_app - INFO - Processed form data: {'weight': 65.0, 'height': 1.77, 'age': 25, 'bmi': 20.747550193111813, 'days_per_week': 5, 'sleep_hours': 6.0, 'intensity': 0, 'exercise_type': 1, 'calories': 1400.0, 'protein': 0.4, 'carbohydrate': 0.4, 'total_fat': 0.2, 'fiber': 19.6, 'equipment': 'none', 'fitness_level': '3', 'rating': 0, 'diet_type': 'vegan', 'macro_preference': 'high_protein', 'meals_per_day': 4}
+2025-03-30 00:56:09,290 - workout_app - INFO - Features for prediction: [{'weight': 65.0, 'height': 1.77, 'age': 25, 'bmi': 20.747550193111813, 'days_per_week': 5, 'sleep_hours': 6.0, 'calories': 1400.0, 'protein': 0.4, 'carbohydrate': 0.4, 'total_fat': 0.2, 'fiber': 19.6, 'intensity': 0, 'exercise_type': 1, 'rating': 0}]
+2025-03-30 00:56:09,905 - workout_app - INFO - Predicted cluster: 22
+2025-03-30 00:56:10,182 - workout_app - INFO - Workout plan generated successfully
+2025-03-30 00:56:10,184 - workout_app - INFO - Generated workout plan
+2025-03-30 00:56:10,184 - workout_app - INFO - Generating nutrition plan with user_data: {'weight': 65.0, 'height': 1.77, 'age': 25, 'bmi': 20.747550193111813, 'days_per_week': 5, 'sleep_hours': 6.0, 'intensity': 0, 'exercise_type': 1, 'calories': 1400.0, 'protein': 0.4, 'carbohydrate': 0.4, 'total_fat': 0.2, 'fiber': 19.6, 'equipment': 'none', 'fitness_level': '3', 'rating': 0, 'diet_type': 'vegan', 'macro_preference': 'high_protein', 'meals_per_day': 4}
+2025-03-30 00:56:10,187 - workout_app - INFO - Nutrition plan generated successfully
+2025-03-30 00:56:10,187 - workout_app - INFO - Generated nutrition plan
+2025-03-30 00:56:10,187 - workout_app - INFO - Formatted complete plan successfully
+2025-03-30 00:56:10,188 - workout_app - INFO - Formatted complete plan
+2025-03-30 00:56:10,961 - workout_app - INFO - Added plan to Firestore
+2025-03-30 00:56:11,106 - workout_app - INFO - Plan generated with ID Inusw8riL7LWr9Grvc59, returning response: <class 'str'>
+2025-03-30 00:56:48,349 - workout_app - INFO - Rendering generate form
+2025-03-30 00:57:41,820 - workout_app - INFO - Processed form data: {'weight': 65.0, 'height': 1.77, 'age': 25, 'bmi': 20.747550193111813, 'days_per_week': 4, 'sleep_hours': 6.0, 'intensity': 0, 'exercise_type': 1, 'calories': 1650.0, 'protein': 0.4, 'carbohydrate': 0.4, 'total_fat': 0.2, 'fiber': 23.1, 'equipment': 'none', 'fitness_level': '3', 'rating': 0, 'diet_type': 'mediterranean', 'macro_preference': 'high_protein', 'meals_per_day': 3}
+2025-03-30 00:57:42,263 - workout_app - INFO - Features for prediction: [{'weight': 65.0, 'height': 1.77, 'age': 25, 'bmi': 20.747550193111813, 'days_per_week': 4, 'sleep_hours': 6.0, 'calories': 1650.0, 'protein': 0.4, 'carbohydrate': 0.4, 'total_fat': 0.2, 'fiber': 23.1, 'intensity': 0, 'exercise_type': 1, 'rating': 0}]
+2025-03-30 00:57:42,375 - workout_app - INFO - Predicted cluster: 22
+2025-03-30 00:57:42,612 - workout_app - INFO - Workout plan generated successfully
+2025-03-30 00:57:42,612 - workout_app - INFO - Generated workout plan
+2025-03-30 00:57:42,612 - workout_app - INFO - Generating nutrition plan with user_data: {'weight': 65.0, 'height': 1.77, 'age': 25, 'bmi': 20.747550193111813, 'days_per_week': 4, 'sleep_hours': 6.0, 'intensity': 0, 'exercise_type': 1, 'calories': 1650.0, 'protein': 0.4, 'carbohydrate': 0.4, 'total_fat': 0.2, 'fiber': 23.1, 'equipment': 'none', 'fitness_level': '3', 'rating': 0, 'diet_type': 'mediterranean', 'macro_preference': 'high_protein', 'meals_per_day': 3}
+2025-03-30 00:57:42,612 - workout_app - INFO - Nutrition plan generated successfully
+2025-03-30 00:57:42,612 - workout_app - INFO - Generated nutrition plan
+2025-03-30 00:57:42,612 - workout_app - INFO - Formatted complete plan successfully
+2025-03-30 00:57:42,612 - workout_app - INFO - Formatted complete plan
+2025-03-30 00:57:44,940 - workout_app - INFO - Added plan to Firestore
+2025-03-30 00:57:44,944 - workout_app - INFO - Plan generated with ID 8v1lXNTtr0lmWM62hR1C, returning response: <class 'str'>
+2025-03-30 00:58:28,188 - workout_app - INFO - Rendering generate form
+2025-03-30 00:59:32,902 - workout_app - INFO - Processed form data: {'weight': 65.0, 'height': 1.77, 'age': 25, 'bmi': 20.747550193111813, 'days_per_week': 5, 'sleep_hours': 6.0, 'intensity': 0, 'exercise_type': 2, 'calories': 1300.0, 'protein': 0.5, 'carbohydrate': 0.1, 'total_fat': 0.4, 'fiber': 18.2, 'equipment': 'dumbbells', 'fitness_level': '3', 'rating': 0, 'diet_type': 'balanced', 'macro_preference': 'low_carb', 'meals_per_day': 3}
+2025-03-30 00:59:32,908 - workout_app - INFO - Features for prediction: [{'weight': 65.0, 'height': 1.77, 'age': 25, 'bmi': 20.747550193111813, 'days_per_week': 5, 'sleep_hours': 6.0, 'calories': 1300.0, 'protein': 0.5, 'carbohydrate': 0.1, 'total_fat': 0.4, 'fiber': 18.2, 'intensity': 0, 'exercise_type': 2, 'rating': 0}]
+2025-03-30 00:59:32,925 - workout_app - INFO - Predicted cluster: 14
+2025-03-30 00:59:33,138 - workout_app - INFO - Workout plan generated successfully
+2025-03-30 00:59:33,140 - workout_app - INFO - Generated workout plan
+2025-03-30 00:59:33,140 - workout_app - INFO - Generating nutrition plan with user_data: {'weight': 65.0, 'height': 1.77, 'age': 25, 'bmi': 20.747550193111813, 'days_per_week': 5, 'sleep_hours': 6.0, 'intensity': 0, 'exercise_type': 2, 'calories': 1300.0, 'protein': 0.5, 'carbohydrate': 0.1, 'total_fat': 0.4, 'fiber': 18.2, 'equipment': 'dumbbells', 'fitness_level': '3', 'rating': 0, 'diet_type': 'balanced', 'macro_preference': 'low_carb', 'meals_per_day': 3}
+2025-03-30 00:59:33,140 - workout_app - INFO - Nutrition plan generated successfully
+2025-03-30 00:59:33,142 - workout_app - INFO - Generated nutrition plan
+2025-03-30 00:59:33,142 - workout_app - INFO - Formatted complete plan successfully
+2025-03-30 00:59:33,142 - workout_app - INFO - Formatted complete plan
+2025-03-30 00:59:35,376 - workout_app - INFO - Added plan to Firestore
+2025-03-30 00:59:35,379 - workout_app - INFO - Plan generated with ID JENAdez2TI0h4r0AkZ3M, returning response: <class 'str'>
+2025-03-30 01:00:17,207 - workout_app - INFO - Rendering generate form
+2025-03-30 01:01:09,726 - workout_app - INFO - Processed form data: {'weight': 65.0, 'height': 1.77, 'age': 25, 'bmi': 20.747550193111813, 'days_per_week': 3, 'sleep_hours': 6.0, 'intensity': 0, 'exercise_type': 3, 'calories': 1200.0, 'protein': 0.3, 'carbohydrate': 0.5, 'total_fat': 0.2, 'fiber': 16.8, 'equipment': 'bands', 'fitness_level': '3', 'rating': 0, 'diet_type': 'paleo', 'macro_preference': 'high_carb', 'meals_per_day': 6}
+2025-03-30 01:01:09,737 - workout_app - INFO - Features for prediction: [{'weight': 65.0, 'height': 1.77, 'age': 25, 'bmi': 20.747550193111813, 'days_per_week': 3, 'sleep_hours': 6.0, 'calories': 1200.0, 'protein': 0.3, 'carbohydrate': 0.5, 'total_fat': 0.2, 'fiber': 16.8, 'intensity': 0, 'exercise_type': 3, 'rating': 0}]
+2025-03-30 01:01:09,742 - workout_app - INFO - Predicted cluster: 14
+2025-03-30 01:01:09,897 - workout_app - INFO - Workout plan generated successfully
+2025-03-30 01:01:09,904 - workout_app - INFO - Generated workout plan
+2025-03-30 01:01:09,905 - workout_app - INFO - Generating nutrition plan with user_data: {'weight': 65.0, 'height': 1.77, 'age': 25, 'bmi': 20.747550193111813, 'days_per_week': 3, 'sleep_hours': 6.0, 'intensity': 0, 'exercise_type': 3, 'calories': 1200.0, 'protein': 0.3, 'carbohydrate': 0.5, 'total_fat': 0.2, 'fiber': 16.8, 'equipment': 'bands', 'fitness_level': '3', 'rating': 0, 'diet_type': 'paleo', 'macro_preference': 'high_carb', 'meals_per_day': 6}
+2025-03-30 01:01:09,906 - workout_app - INFO - Nutrition plan generated successfully
+2025-03-30 01:01:09,906 - workout_app - INFO - Generated nutrition plan
+2025-03-30 01:01:09,912 - workout_app - INFO - Formatted complete plan successfully
+2025-03-30 01:01:09,916 - workout_app - INFO - Formatted complete plan
+2025-03-30 01:01:10,784 - workout_app - INFO - Added plan to Firestore
+2025-03-30 01:01:10,787 - workout_app - INFO - Plan generated with ID soTCVMKOwrodnML4USg2, returning response: <class 'str'>
+2025-03-30 01:02:53,683 - workout_app - INFO - Rendering generate form
+2025-03-30 01:03:42,338 - workout_app - INFO - Processed form data: {'weight': 65.0, 'height': 1.77, 'age': 25, 'bmi': 20.747550193111813, 'days_per_week': 4, 'sleep_hours': 4.0, 'intensity': 0, 'exercise_type': 2, 'calories': 1800.0, 'protein': 0.5, 'carbohydrate': 0.1, 'total_fat': 0.4, 'fiber': 25.2, 'equipment': 'bands', 'fitness_level': '3', 'rating': 0, 'diet_type': 'vegan', 'macro_preference': 'low_carb', 'meals_per_day': 3}
+2025-03-30 01:03:42,440 - workout_app - INFO - Features for prediction: [{'weight': 65.0, 'height': 1.77, 'age': 25, 'bmi': 20.747550193111813, 'days_per_week': 4, 'sleep_hours': 4.0, 'calories': 1800.0, 'protein': 0.5, 'carbohydrate': 0.1, 'total_fat': 0.4, 'fiber': 25.2, 'intensity': 0, 'exercise_type': 2, 'rating': 0}]
+2025-03-30 01:03:42,524 - workout_app - INFO - Predicted cluster: 14
+2025-03-30 01:03:42,664 - workout_app - INFO - Workout plan generated successfully
+2025-03-30 01:03:42,664 - workout_app - INFO - Generated workout plan
+2025-03-30 01:03:42,666 - workout_app - INFO - Generating nutrition plan with user_data: {'weight': 65.0, 'height': 1.77, 'age': 25, 'bmi': 20.747550193111813, 'days_per_week': 4, 'sleep_hours': 4.0, 'intensity': 0, 'exercise_type': 2, 'calories': 1800.0, 'protein': 0.5, 'carbohydrate': 0.1, 'total_fat': 0.4, 'fiber': 25.2, 'equipment': 'bands', 'fitness_level': '3', 'rating': 0, 'diet_type': 'vegan', 'macro_preference': 'low_carb', 'meals_per_day': 3}
+2025-03-30 01:03:42,671 - workout_app - INFO - Nutrition plan generated successfully
+2025-03-30 01:03:42,672 - workout_app - INFO - Generated nutrition plan
+2025-03-30 01:03:42,682 - workout_app - INFO - Formatted complete plan successfully
+2025-03-30 01:03:42,683 - workout_app - INFO - Formatted complete plan
+2025-03-30 01:03:44,828 - workout_app - INFO - Added plan to Firestore
+2025-03-30 01:03:44,844 - workout_app - INFO - Plan generated with ID hw568JOn9ISMpUBIfzoX, returning response: <class 'str'>
+2025-03-30 01:04:40,736 - workout_app - INFO - Plan hw568JOn9ISMpUBIfzoX sent to coach
+2025-03-30 01:04:44,900 - workout_app - INFO - Rendering customer dashboard
+2025-03-30 01:05:19,288 - workout_app - INFO - Plan 8v1lXNTtr0lmWM62hR1C sent to coach
+2025-03-30 01:05:24,466 - workout_app - INFO - Rendering customer dashboard
+2025-03-30 01:05:29,942 - workout_app - INFO - User logged out
+2025-03-30 01:05:29,981 - workout_app - INFO - Rendering home page
+2025-03-30 01:05:32,513 - workout_app - INFO - Rendering login page
+2025-03-30 01:05:39,998 - workout_app - INFO - User thilinashalom1@gmail.com logged in as coach
+2025-03-30 01:05:43,017 - workout_app - INFO - Rendering coach dashboard
+2025-03-30 01:17:58,563 - workout_app - INFO - Scaler expected feature names: ['weight' 'height' 'age' 'bmi' 'days_per_week' 'sleep_hours' 'calories'
+ 'protein' 'carbohydrate' 'total_fat' 'fiber' 'intensity' 'exercise_type'
+ 'rating']
+2025-03-30 01:18:02,552 - workout_app - INFO - Scaler expected feature names: ['weight' 'height' 'age' 'bmi' 'days_per_week' 'sleep_hours' 'calories'
+ 'protein' 'carbohydrate' 'total_fat' 'fiber' 'intensity' 'exercise_type'
+ 'rating']
+2025-03-30 01:18:11,124 - workout_app - INFO - Rendering home page
+2025-03-30 01:18:15,891 - workout_app - INFO - Rendering admin login page
+2025-03-30 01:18:22,762 - workout_app - INFO - Admin admin logged in
+2025-03-30 01:18:23,262 - workout_app - INFO - Rendering admin dashboard
+2025-03-30 01:18:49,954 - workout_app - INFO - Fetched details for coach dimuthnilanjana.official@gmail.com
+2025-03-30 01:19:09,531 - workout_app - INFO - Fetched details for coach thilinashalom1@gmail.com
+2025-03-30 01:19:18,197 - workout_app - INFO - Fetched details for coach john1@gmail.com
+2025-03-30 01:19:59,460 - workout_app - INFO - Fetched details for coach john1@gmail.com
+2025-03-30 01:20:04,747 - workout_app - INFO - Coach john1@gmail.com updated successfully
+2025-03-30 01:20:06,443 - workout_app - INFO - Rendering admin dashboard
+2025-03-30 01:20:09,792 - workout_app - INFO - Fetched details for coach dimuthnilanjana.official@gmail.com
+2025-03-30 01:20:42,384 - workout_app - INFO - Fetched details for coach dimuthnilanjana.official@gmail.com
+2025-03-30 01:20:47,427 - workout_app - INFO - Coach dimuthnilanjana.official@gmail.com updated successfully
+2025-03-30 01:20:49,155 - workout_app - INFO - Rendering admin dashboard
+2025-03-30 01:21:47,910 - workout_app - INFO - Fetched details for coach dimuthnilanjana.official@gmail.com
+2025-03-30 01:21:52,931 - workout_app - INFO - Coach dimuthnilanjana.official@gmail.com updated successfully
+2025-03-30 01:21:54,782 - workout_app - INFO - Rendering admin dashboard
+2025-03-30 01:22:16,104 - workout_app - INFO - Rendering admin dashboard
+2025-03-30 01:22:48,693 - workout_app - INFO - Password reset link generated for thilinashalom1@gmail.com: https://hdproject-6e51c.firebaseapp.com/__/auth/action?mode=resetPassword&oobCode=vpR5BmMHVq_H2hSIpIu1yDlU1KH7L4lv1Yz2jVExLgEAAAGV43bMyg&apiKey=AIzaSyCmGMQlf5BTu8apa3kBg-5RaSvlnJS2p0U&lang=en
+2025-03-30 01:22:52,989 - workout_app - INFO - Email sent successfully to thilinashalom1@gmail.com
+2025-03-30 01:22:52,989 - workout_app - INFO - Password reset initiated for coach thilinashalom1@gmail.com
+2025-03-30 01:24:37,630 - workout_app - INFO - Rendering admin dashboard
+2025-03-30 01:25:28,815 - workout_app - INFO - Rendering admin dashboard
+2025-03-30 01:26:11,092 - workout_app - INFO - Rendering admin dashboard
+2025-03-30 01:28:46,761 - workout_app - INFO - Password reset link generated for john1@gmail.com: https://hdproject-6e51c.firebaseapp.com/__/auth/action?mode=resetPassword&oobCode=aRZWyY5Kozo6jlKc29hHWzWtS8dWDtLwZBSuTOFTpXEAAAGV43xEUg&apiKey=AIzaSyCmGMQlf5BTu8apa3kBg-5RaSvlnJS2p0U&lang=en
+2025-03-30 01:28:50,200 - workout_app - INFO - Email sent successfully to john1@gmail.com
+2025-03-30 01:28:50,203 - workout_app - INFO - Password reset initiated for coach john1@gmail.com
+2025-03-30 01:29:07,666 - workout_app - INFO - Fetched details for coach 123@gmail.com
+2025-03-30 01:29:25,684 - workout_app - INFO - Fetched details for coach john1@gmail.com
+2025-03-30 01:29:32,890 - workout_app - INFO - Updated email in Firebase Auth for coach a5sZ9ILcREgoW9hzVZ6rOzgrSuC2 from john1@gmail.com to john@gmail.com
+2025-03-30 01:29:32,891 - workout_app - INFO - Coach john1@gmail.com updated successfully
+2025-03-30 01:29:35,457 - workout_app - INFO - Rendering admin dashboard
+2025-03-30 01:29:48,900 - workout_app - INFO - Fetched details for coach john@gmail.com
+2025-03-30 01:29:56,423 - workout_app - INFO - Updated email in Firebase Auth for coach a5sZ9ILcREgoW9hzVZ6rOzgrSuC2 from john@gmail.com to john1@gmail.com
+2025-03-30 01:29:56,424 - workout_app - INFO - Coach john@gmail.com updated successfully
+2025-03-30 01:29:58,395 - workout_app - INFO - Rendering admin dashboard
+2025-03-30 01:30:17,240 - workout_app - INFO - Fetched details for coach thilinashalom1@gmail.com
+2025-03-30 01:30:42,410 - workout_app - INFO - Coach thilinashalom1@gmail.com updated successfully
+2025-03-30 01:30:44,324 - workout_app - INFO - Rendering admin dashboard
+2025-03-30 01:31:40,629 - workout_app - INFO - Rendering admin login page
+2025-03-30 01:31:45,428 - workout_app - INFO - Rendering registration page
+2025-03-30 01:32:02,778 - workout_app - INFO - Rendering login page
+2025-03-30 01:32:10,643 - workout_app - INFO - User c@gmail.com logged in as customer
+2025-03-30 01:32:12,380 - workout_app - INFO - Rendering customer dashboard
+2025-03-30 01:33:08,173 - workout_app - INFO - User logged out
+2025-03-30 01:33:08,193 - workout_app - INFO - Rendering home page
+2025-03-30 01:33:11,851 - workout_app - INFO - Rendering home page
+2025-03-30 01:33:13,472 - workout_app - INFO - Rendering registration page
+2025-03-30 01:33:15,751 - workout_app - INFO - Rendering login page
+2025-03-30 01:33:21,818 - workout_app - INFO - User thilinashalom1@gmail.com logged in as coach
+2025-03-30 01:33:23,616 - workout_app - INFO - Rendering coach dashboard
+2025-03-30 01:35:32,060 - workout_app - INFO - User logged out
+2025-03-30 01:35:32,080 - workout_app - INFO - Rendering home page
+2025-03-30 01:35:36,688 - workout_app - INFO - Rendering registration page
+2025-03-30 01:36:28,881 - workout_app - INFO - Rendering login page
+2025-03-30 01:36:36,711 - workout_app - ERROR - Login failed: No user record found for the provided email: john@gmail.com.
+2025-03-30 01:37:03,314 - workout_app - INFO - User john1@gmail.com logged in as coach
+2025-03-30 01:37:05,164 - workout_app - INFO - Rendering coach dashboard
+2025-03-30 01:37:09,783 - workout_app - INFO - User logged out
+2025-03-30 01:37:09,799 - workout_app - INFO - Rendering home page
+2025-03-30 01:37:16,475 - workout_app - INFO - Rendering admin login page
+2025-03-30 01:37:21,243 - workout_app - INFO - Admin admin logged in
+2025-03-30 01:37:21,998 - workout_app - INFO - Rendering admin dashboard
+2025-03-30 01:37:25,172 - workout_app - INFO - Fetched details for coach john1@gmail.com
+2025-03-30 01:37:32,890 - workout_app - INFO - Updated email in Firebase Auth for coach a5sZ9ILcREgoW9hzVZ6rOzgrSuC2 from john1@gmail.com to john@gmail.com
+2025-03-30 01:37:32,894 - workout_app - INFO - Coach john1@gmail.com updated successfully
+2025-03-30 01:37:34,616 - workout_app - INFO - Rendering admin dashboard
+2025-03-30 01:37:38,065 - workout_app - INFO - Rendering admin dashboard
+2025-03-30 01:37:42,710 - workout_app - INFO - Rendering login page
+2025-03-30 01:37:47,352 - workout_app - INFO - User john@gmail.com logged in as coach
+2025-03-30 01:37:49,743 - workout_app - INFO - Rendering coach dashboard
+2025-03-30 01:38:01,919 - workout_app - INFO - User logged out
+2025-03-30 01:38:01,936 - workout_app - INFO - Rendering home page
+2025-03-30 01:38:03,525 - workout_app - INFO - Rendering admin login page
+2025-03-30 01:38:09,544 - workout_app - INFO - Admin admin logged in
+2025-03-30 01:38:10,201 - workout_app - INFO - Rendering admin dashboard
+2025-03-31 11:44:15,497 - workout_app - INFO - Scaler expected feature names: ['weight' 'height' 'age' 'bmi' 'days_per_week' 'sleep_hours' 'calories'
+ 'protein' 'carbohydrate' 'total_fat' 'fiber' 'intensity' 'exercise_type'
+ 'rating']
+2025-03-31 11:44:23,389 - workout_app - INFO - Scaler expected feature names: ['weight' 'height' 'age' 'bmi' 'days_per_week' 'sleep_hours' 'calories'
+ 'protein' 'carbohydrate' 'total_fat' 'fiber' 'intensity' 'exercise_type'
+ 'rating']
+2025-03-31 11:44:29,565 - workout_app - INFO - Rendering home page
+2025-03-31 11:44:40,084 - workout_app - INFO - Rendering login page
+2025-03-31 11:44:48,319 - workout_app - INFO - User c@gmail.com logged in as customer
+2025-03-31 11:44:50,227 - workout_app - INFO - Rendering customer dashboard
+2025-03-31 11:45:12,666 - workout_app - INFO - Rendering calorie calculator
+2025-03-31 11:45:56,534 - workout_app - INFO - Rendering calorie calculator
+2025-03-31 11:46:13,168 - workout_app - INFO - Rendering calorie calculator
+2025-03-31 11:51:31,316 - workout_app - INFO - Rendering calorie calculator
+2025-03-31 11:52:48,814 - workout_app - INFO - Rendering calorie calculator
+2025-03-31 11:52:51,206 - workout_app - INFO - Rendering calorie calculator
+2025-03-31 11:53:04,172 - workout_app - INFO - Rendering calorie calculator
+2025-03-31 12:02:51,888 - workout_app - INFO - Rendering calorie calculator
+2025-03-31 14:11:57,002 - workout_app - INFO - Scaler expected feature names: ['weight' 'height' 'age' 'bmi' 'days_per_week' 'sleep_hours' 'calories'
+ 'protein' 'carbohydrate' 'total_fat' 'fiber' 'intensity' 'exercise_type'
+ 'rating']
+2025-03-31 14:12:10,472 - workout_app - INFO - Scaler expected feature names: ['weight' 'height' 'age' 'bmi' 'days_per_week' 'sleep_hours' 'calories'
+ 'protein' 'carbohydrate' 'total_fat' 'fiber' 'intensity' 'exercise_type'
+ 'rating']
+2025-03-31 14:12:14,103 - workout_app - INFO - Rendering home page
+2025-03-31 14:12:26,766 - workout_app - INFO - Rendering home page
+2025-03-31 14:13:25,887 - workout_app - INFO - Rendering login page
+2025-03-31 14:13:35,111 - workout_app - INFO - User c@gmail.com logged in as customer
+2025-03-31 14:13:36,982 - workout_app - INFO - Rendering customer dashboard
+2025-03-31 14:13:43,463 - workout_app - INFO - Rendering customer dashboard
+2025-03-31 14:15:53,360 - workout_app - INFO - Rendering customer dashboard
+2025-03-31 14:16:06,046 - workout_app - INFO - Rendering customer dashboard
+2025-03-31 14:16:58,004 - workout_app - INFO - Plan Inusw8riL7LWr9Grvc59 sent to coach
+2025-03-31 14:17:01,112 - workout_app - INFO - Rendering customer dashboard
+2025-03-31 14:17:15,101 - workout_app - INFO - Plan JENAdez2TI0h4r0AkZ3M sent to coach
+2025-03-31 14:17:19,410 - workout_app - INFO - Rendering customer dashboard
+2025-03-31 14:17:51,110 - workout_app - INFO - Rendering calorie calculator
+2025-03-31 14:22:24,231 - workout_app - INFO - Rendering calorie calculator
+2025-03-31 15:28:37,916 - workout_app - INFO - Scaler expected feature names: ['weight' 'height' 'age' 'bmi' 'days_per_week' 'sleep_hours' 'calories'
+ 'protein' 'carbohydrate' 'total_fat' 'fiber' 'intensity' 'exercise_type'
+ 'rating']
+2025-03-31 15:28:42,815 - workout_app - INFO - Scaler expected feature names: ['weight' 'height' 'age' 'bmi' 'days_per_week' 'sleep_hours' 'calories'
+ 'protein' 'carbohydrate' 'total_fat' 'fiber' 'intensity' 'exercise_type'
+ 'rating']
+2025-03-31 15:29:31,511 - workout_app - INFO - Rendering home page
+2025-03-31 15:29:35,080 - workout_app - INFO - Rendering home page
+2025-03-31 15:29:49,413 - workout_app - INFO - Rendering login page
+2025-03-31 15:30:16,527 - workout_app - INFO - Rendering forgot password page
+2025-03-31 15:30:32,184 - workout_app - INFO - Password reset link generated for thilinashalom1@gmail.com
+2025-03-31 15:30:36,233 - workout_app - INFO - Password reset email sent to thilinashalom1@gmail.com
+2025-03-31 15:31:03,165 - workout_app - INFO - Rendering forgot password page
+2025-03-31 15:32:45,605 - workout_app - INFO - Rendering forgot password page
+2025-03-31 15:33:06,914 - workout_app - INFO - Rendering forgot password page
+2025-03-31 15:33:14,568 - workout_app - INFO - Password reset link generated for thilinashalom1@gmail.com
+2025-03-31 15:33:19,170 - workout_app - INFO - Password reset email sent to thilinashalom1@gmail.com
+2025-03-31 15:40:05,653 - workout_app - INFO - Rendering forgot password page
+2025-03-31 15:42:17,212 - workout_app - INFO - Rendering forgot password page
+2025-03-31 15:42:30,726 - workout_app - INFO - Password reset link generated for c@gmail.com
+2025-03-31 15:42:34,289 - workout_app - INFO - Password reset email sent to c@gmail.com
+2025-03-31 15:42:50,144 - workout_app - INFO - Rendering forgot password page
+2025-03-31 15:43:13,406 - workout_app - INFO - User c@gmail.com logged in as customer
+2025-03-31 15:43:15,369 - workout_app - INFO - Rendering customer dashboard
+2025-03-31 15:43:35,558 - workout_app - INFO - User logged out
+2025-03-31 15:43:35,575 - workout_app - INFO - Rendering home page
