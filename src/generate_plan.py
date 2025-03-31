@@ -1,5 +1,5 @@
 import json
-from src.app import generate_workout_plan, generate_nutrition_plan
+from api.app import generate_workout_plan, generate_nutrition_plan
 
 def generate_plan(cluster, user_data):
     """Generate workout and nutrition plan based on cluster and user data"""

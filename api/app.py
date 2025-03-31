@@ -1,4 +1,4 @@
-from flask import Flask, render_template, request, redirect, url_for, session, jsonify, make_response
+from flask import Flask, render_template, send_from_directory, request, redirect, url_for, session, jsonify, make_response
 import pandas as pd
 import numpy as np
 from sklearn.preprocessing import StandardScaler
@@ -18,7 +18,7 @@ from dotenv import load_dotenv
 # Load environment variables
 load_dotenv()
 
-app = Flask(__name__, template_folder='templates')
+app = Flask(__name__, template_folder='../templates', static_folder='../static')
 app.config['JSON_AS_ASCII'] = False
 app.secret_key = os.getenv('SECRET_KEY', 'your_secret_key')
 
@@ -95,6 +95,10 @@ FEATURE_NAMES = scaler.feature_names_in_.tolist() if hasattr(scaler, 'feature_na
 def home():
     logger.info("Rendering home page")
     return render_template('index.html')
+
+@app.route('/static/<path:path>')
+def send_static(path):
+    return send_from_directory('../static', path)
 
 def generate_workout_plan(user_info):
     try:
