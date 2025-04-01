@@ -898,3 +898,74 @@ Feature names unseen at fit time:
 2025-04-01 01:44:45,946 - workout_app - INFO - Rendering admin dashboard
 2025-04-01 01:44:58,633 - workout_app - INFO - Rendering admin login page
 2025-04-01 01:45:04,128 - workout_app - INFO - Rendering home page
+2025-04-01 13:10:57,127 - workout_app - INFO - Scaler expected feature names: ['weight' 'height' 'age' 'bmi' 'days_per_week' 'sleep_hours' 'calories'
+ 'protein' 'carbohydrate' 'total_fat' 'fiber' 'intensity' 'exercise_type'
+ 'rating']
+2025-04-01 13:11:07,297 - workout_app - INFO - Scaler expected feature names: ['weight' 'height' 'age' 'bmi' 'days_per_week' 'sleep_hours' 'calories'
+ 'protein' 'carbohydrate' 'total_fat' 'fiber' 'intensity' 'exercise_type'
+ 'rating']
+2025-04-01 13:11:45,457 - workout_app - INFO - Rendering home page
+2025-04-01 13:13:13,978 - workout_app - INFO - Rendering login page
+2025-04-01 13:14:30,826 - workout_app - INFO - Rendering home page
+2025-04-01 13:17:49,417 - workout_app - INFO - Rendering home page
+2025-04-01 13:18:09,811 - workout_app - INFO - Rendering home page
+2025-04-01 13:23:34,665 - workout_app - INFO - Rendering home page
+2025-04-01 13:23:58,969 - workout_app - INFO - Rendering registration page
+2025-04-01 13:24:58,396 - workout_app - INFO - Rendering login page
+2025-04-01 13:25:01,645 - workout_app - INFO - Rendering registration page
+2025-04-01 13:25:04,555 - workout_app - INFO - Rendering login page
+2025-04-01 13:25:06,492 - workout_app - INFO - Rendering registration page
+2025-04-01 13:25:09,529 - workout_app - INFO - Rendering login page
+2025-04-01 13:25:11,684 - workout_app - INFO - Rendering registration page
+2025-04-01 13:29:44,794 - workout_app - INFO - Rendering home page
+2025-04-01 13:31:27,631 - workout_app - INFO - Rendering home page
+2025-04-01 13:31:37,895 - workout_app - INFO - Rendering home page
+2025-04-01 13:34:50,371 - workout_app - INFO - Rendering home page
+2025-04-01 14:51:59,527 - workout_app - INFO - Rendering home page
+2025-04-01 14:59:51,372 - workout_app - INFO - Rendering home page
+2025-04-01 15:03:25,928 - workout_app - INFO - Rendering login page
+2025-04-01 15:03:46,725 - workout_app - INFO - Rendering login page
+2025-04-01 15:03:52,697 - workout_app - INFO - Rendering home page
+2025-04-01 15:12:19,710 - workout_app - INFO - Rendering home page
+2025-04-01 15:12:43,076 - workout_app - INFO - Rendering registration page
+2025-04-01 15:13:38,166 - workout_app - INFO - User sandaruwani.pathirage@gmail.com registered as customer
+2025-04-01 15:13:38,166 - workout_app - INFO - User sandaruwani.pathirage@gmail.com registered as customer
+2025-04-01 15:13:38,218 - workout_app - INFO - Rendering login page
+2025-04-01 15:13:46,547 - workout_app - INFO - User sandaruwani.pathirage@gmail.com logged in as customer
+2025-04-01 15:13:48,576 - workout_app - INFO - Rendering customer dashboard
+2025-04-01 15:14:01,184 - workout_app - INFO - Rendering generate form
+2025-04-01 15:14:30,370 - workout_app - INFO - Rendering calorie calculator
+2025-04-01 15:15:18,728 - workout_app - INFO - Rendering generate form
+2025-04-01 15:19:15,702 - workout_app - INFO - Processed form data: {'weight': 65.0, 'height': 1.77, 'age': 25, 'bmi': 20.747550193111813, 'days_per_week': 4, 'sleep_hours': 6.0, 'intensity': 0, 'exercise_type': 2, 'calories': 1600.0, 'protein': 0.5, 'carbohydrate': 0.1, 'total_fat': 0.4, 'fiber': 22.400000000000002, 'equipment': 'none', 'fitness_level': '1', 'rating': 0, 'diet_type': 'mediterranean', 'macro_preference': 'low_carb', 'meals_per_day': 3}
+2025-04-01 15:19:16,801 - workout_app - INFO - Features for prediction: [{'weight': 65.0, 'height': 1.77, 'age': 25, 'bmi': 20.747550193111813, 'days_per_week': 4, 'sleep_hours': 6.0, 'calories': 1600.0, 'protein': 0.5, 'carbohydrate': 0.1, 'total_fat': 0.4, 'fiber': 22.400000000000002, 'intensity': 0, 'exercise_type': 2, 'rating': 0}]
+2025-04-01 15:19:17,702 - workout_app - INFO - Predicted cluster: 14
+2025-04-01 15:19:18,123 - workout_app - INFO - Workout plan generated successfully
+2025-04-01 15:19:18,125 - workout_app - INFO - Generated workout plan
+2025-04-01 15:19:18,127 - workout_app - INFO - Generating nutrition plan with user_data: {'weight': 65.0, 'height': 1.77, 'age': 25, 'bmi': 20.747550193111813, 'days_per_week': 4, 'sleep_hours': 6.0, 'intensity': 0, 'exercise_type': 2, 'calories': 1600.0, 'protein': 0.5, 'carbohydrate': 0.1, 'total_fat': 0.4, 'fiber': 22.400000000000002, 'equipment': 'none', 'fitness_level': '1', 'rating': 0, 'diet_type': 'mediterranean', 'macro_preference': 'low_carb', 'meals_per_day': 3}
+2025-04-01 15:19:18,127 - workout_app - INFO - Nutrition plan generated successfully
+2025-04-01 15:19:18,129 - workout_app - INFO - Generated nutrition plan
+2025-04-01 15:19:18,129 - workout_app - INFO - Formatted complete plan successfully
+2025-04-01 15:19:18,129 - workout_app - INFO - Formatted complete plan
+2025-04-01 15:19:21,349 - workout_app - INFO - Added plan to Firestore
+2025-04-01 15:19:23,466 - workout_app - INFO - Plan generated with ID Xn5WJjPGOKl56QqoJnVt, returning response: <class 'str'>
+2025-04-01 15:19:56,997 - workout_app - INFO - Plan Xn5WJjPGOKl56QqoJnVt sent to coach
+2025-04-01 15:20:03,122 - workout_app - INFO - Rendering customer dashboard
+2025-04-01 15:20:17,057 - workout_app - INFO - User logged out
+2025-04-01 15:20:17,131 - workout_app - INFO - Rendering home page
+2025-04-01 15:20:19,933 - workout_app - INFO - Rendering login page
+2025-04-01 15:20:23,960 - workout_app - INFO - Rendering home page
+2025-04-01 15:20:25,279 - workout_app - INFO - Rendering admin login page
+2025-04-01 15:20:36,679 - workout_app - INFO - Admin admin logged in
+2025-04-01 15:20:37,652 - workout_app - INFO - Rendering admin dashboard
+2025-04-01 15:20:53,175 - workout_app - INFO - Rendering login page
+2025-04-01 15:21:04,710 - workout_app - ERROR - Login failed: No user record found for the provided email: 123@gmail.com.
+2025-04-01 15:21:21,185 - workout_app - INFO - User thilinashalom1@gmail.com logged in as coach
+2025-04-01 15:21:35,225 - workout_app - INFO - Rendering coach dashboard
+2025-04-01 15:21:53,185 - workout_app - INFO - Rendering coach dashboard
+2025-04-01 15:22:11,995 - workout_app - INFO - User logged out
+2025-04-01 15:22:12,073 - workout_app - INFO - Rendering home page
+2025-04-01 15:22:14,147 - workout_app - INFO - Rendering login page
+2025-04-01 15:22:28,641 - workout_app - INFO - User sandaruwani.pathirage@gmail.com logged in as customer
+2025-04-01 15:22:31,291 - workout_app - INFO - Rendering customer dashboard
+2025-04-01 15:23:13,352 - workout_app - INFO - User logged out
+2025-04-01 15:23:13,386 - workout_app - INFO - Rendering home page

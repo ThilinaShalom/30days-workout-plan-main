@@ -715,5 +715,3 @@ def calorie_calculator():
 if __name__ == '__main__':
     logger.info("Starting Flask application")
     app.run(debug=True)
-
-
