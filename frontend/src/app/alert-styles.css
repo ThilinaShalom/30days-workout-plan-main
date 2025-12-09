@@ -1,0 +1,48 @@
+/* Alert Styles - Add to globals.css */
+.alert {
+    border-radius: 12px;
+    padding: 16px 20px;
+    margin-bottom: 20px;
+    font-weight: 500;
+    border-width: 2px;
+}
+
+.alert-danger {
+    background: rgba(239, 68, 68, 0.15) !important;
+    color: #ffffff !important;
+    border-color: #ef4444 !important;
+}
+
+.alert-success {
+    background: rgba(16, 185, 129, 0.15) !important;
+    color: #ffffff !important;
+    border-color: #10b981 !important;
+}
+
+.alert-warning {
+    background: rgba(245, 158, 11, 0.15) !important;
+    color: #ffffff !important;
+    border-color: #f59e0b !important;
+}
+
+.alert-info {
+    background: rgba(0, 204, 255, 0.15) !important;
+    color: #ffffff !important;
+    border-color: #00ccff !important;
+}
+
+.alert-secondary {
+    background: rgba(139, 92, 246, 0.15) !important;
+    color: #ffffff !important;
+    border-color: #8b5cf6 !important;
+}
+
+/* Make alert text clearly visible */
+.alert strong {
+    color: #ffffff !important;
+}
+
+.alert p {
+    color: #e0e0e0 !important;
+    margin-bottom: 0;
+}
