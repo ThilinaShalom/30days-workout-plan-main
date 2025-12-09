@@ -1,0 +1,87 @@
+{% extends "base.html" %}
+
+{% block content %}
+<style>
+    .login-form {
+        background: rgba(20, 20, 30, 0.9);
+        box-shadow: 0 0 15px rgba(173, 216, 230, 0.5);
+        padding: 30px;
+        width: 800px;
+        margin: 100px auto;
+        border-radius: 16px !important;
+        border: none !important;
+        transition: box-shadow 0.3s ease-in-out;
+    }
+
+    .login-form:hover {
+        box-shadow: 0 0 25px rgba(173, 216, 230, 0.8);
+    }
+
+    h2 {
+        text-shadow: 0 0 8px rgba(173, 216, 230, 0.8);
+    }
+
+    .login-form input.form-control {
+        background: rgba(255, 255, 255, 0.1);
+        border: none;
+        color: #ffffff;
+        transition: all 0.3s ease-in-out;
+    }
+
+    .login-form input.form-control:focus {
+        background: rgba(255, 255, 255, 0.2);
+        box-shadow: 0 0 8px rgba(173, 216, 230, 0.8);
+    }
+
+    .login-form .btn-primary {
+        background: linear-gradient(to right, #1e90ff, #00bfff);
+        border: none;
+        transition: all 0.3s ease-in-out;
+    }
+
+    .login-form .btn-primary:hover {
+        background: linear-gradient(to right, #00bfff, #1e90ff);
+        box-shadow: 0 0 15px rgba(173, 216, 230, 0.8);
+    }
+
+    .login-form a {
+        color: #00ccff;
+        text-decoration: none;
+        transition: all 0.3s ease;
+    }
+
+    .login-form a:hover {
+        color: #fff;
+        text-shadow: 0 0 10px rgba(0, 204, 255, 0.5);
+    }
+</style>
+
+<div class="login-form">
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+            <h2 class="text-center mb-4">Login</h2>
+            <form method="POST" action="{{ url_for('login') }}">
+                <div class="mb-3">
+                    <label for="email" class="form-label">Email address</label>
+                    <input type="email" class="form-control" id="email" name="email" required>
+                </div>
+                <div class="mb-3">
+                    <label for="password" class="form-label">Password</label>
+                    <input type="password" class="form-control" id="password" name="password" required>
+                </div>
+                <button type="submit" class="btn btn-primary w-100">
+                    <i class="ph ph-sign-in me-2"></i>Login
+                </button>
+            </form>
+            <div class="mt-3 text-center">
+                <p>Don't have an account? <a href="{{ url_for('register') }}">Register here</a></p>
+                <p class="mt-2">
+                    <a href="{{ url_for('forgot_password') }}">
+                        <i class="ph ph-key me-1"></i>Forgot Password?
+                    </a>
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

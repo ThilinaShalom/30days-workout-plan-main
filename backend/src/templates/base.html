@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{% block title %}FitnessAI{% endblock %}</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" type="text/css" href="/css/main.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/@phosphor-icons/web@2.1.1/src/regular/style.css"
+    />
+    <style>
+      /* General styles */
+      body {
+        background: #121212;
+        color: #e0e0e0;
+        font-family: "Poppins", sans-serif;
+      }
+
+      .container {
+        max-width: 800px;
+        background: #1e1e1e;
+        padding: 30px;
+        border-radius: 12px;
+        box-shadow: 0 0 15px rgba(0, 204, 255, 0.2);
+      }
+
+      /* Headings */
+      h2,
+      h4 {
+        color: #00ccff;
+        text-align: center;
+      }
+
+      /* Form controls */
+      .form-control,
+      .form-select {
+        background: #252525;
+        color: #ffffff;
+        border: 2px solid #00ccff;
+        border-radius: 8px;
+        padding: 12px;
+        transition: all 0.3s ease-in-out;
+      }
+
+      .form-control:focus,
+      .form-select:focus {
+        background: #2b2b2b;
+        color: #ffffff;
+        border-color: #00e1ff;
+        box-shadow: 0 0 10px rgba(0, 225, 255, 0.5);
+      }
+
+      /* Add these styles to make placeholders visible */
+      .form-control::placeholder,
+      .form-select::placeholder {
+        color: rgba(255, 255, 255, 0.5) !important;
+        opacity: 1;
+      }
+
+      /* Style placeholder text for different browsers */
+      .form-control::-webkit-input-placeholder {
+        color: rgba(255, 255, 255, 0.5) !important;
+      }
+
+      .form-control::-moz-placeholder {
+        color: rgba(255, 255, 255, 0.5) !important;
+      }
+
+      .form-control:-ms-input-placeholder {
+        color: rgba(255, 255, 255, 0.5) !important;
+      }
+
+      /* Add a subtle glow effect on focus */
+      .form-control:focus::placeholder {
+        color: rgba(0, 204, 255, 0.5) !important;
+        transition: color 0.3s ease;
+      }
+
+      /* Buttons */
+      .btn-primary {
+        background: linear-gradient(90deg, #00ccff, #0077ff);
+        border: none;
+        padding: 14px;
+        font-size: 18px;
+        font-weight: 600;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        border-radius: 10px;
+        transition: all 0.3s ease-in-out;
+        box-shadow: 0 0 10px rgba(0, 204, 255, 0.6);
+      }
+
+      .btn-primary:hover {
+        background: linear-gradient(90deg, #0077ff, #00ccff);
+        box-shadow: 0 0 15px rgba(0, 225, 255, 0.8);
+      }
+
+      /* Checkboxes & Radio buttons */
+      .form-check-input {
+        background: #252525;
+        border: 2px solid #00ccff;
+      }
+
+      .form-check-input:checked {
+        background: #00ccff;
+        border-color: #00e1ff;
+      }
+
+      /* Section dividers */
+      .mb-3 {
+        padding-bottom: 12px;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+      }
+
+      .mt-4 {
+        margin-top: 24px !important;
+      }
+
+      /* Navbar Styles */
+      .navbar {
+        background: rgba(0, 0, 0, 0.9);
+        backdrop-filter: blur(10px);
+        padding: 1rem 2rem;
+        border-bottom: 1px solid rgba(0, 204, 255, 0.2);
+      }
+
+      .navbar-brand {
+        font-size: 1.5rem;
+        font-weight: bold;
+        color: #00ccff !important;
+      }
+
+      .nav-link {
+        font-size: 1rem;
+        margin: 0 10px;
+        transition: all 0.3s ease;
+      }
+
+      .nav-link i {
+        margin-right: 5px;
+      }
+
+      .nav-link:hover {
+        color: #00ccff !important;
+        text-shadow: 0 0 10px rgba(0, 204, 255, 0.5);
+      }
+
+      /* Footer Styles */
+      .footer {
+        background: rgba(0, 0, 0, 0.9);
+        padding: 60px 0 30px;
+        margin-top: 100px;
+        box-shadow: 0 0 20px rgba(0, 255, 255, 0.2);
+        width: 100%;
+      }
+
+      .footer-container {
+        max-width:auto !important;
+        margin: 0 auto;
+        padding: 0 30px;
+      }
+
+      .footer h5 {
+        color: #00ccff;
+        font-size: 1.2rem;
+        margin-bottom: 20px;
+        text-shadow: 0 0 10px rgba(0, 204, 255, 0.3);
+      }
+
+      .footer p {
+        color: #ccc;
+        font-size: 0.9rem;
+        line-height: 1.6;
+      }
+
+      .tech-badge {
+        display: inline-block;
+        padding: 5px 10px;
+        margin: 3px;
+        background: rgba(0, 204, 255, 0.1);
+        border: 1px solid #00ccff;
+        border-radius: 15px;
+        font-size: 0.8rem;
+        color: #00ccff;
+        transition: all 0.3s ease;
+      }
+
+      .tech-badge:hover {
+        background: #00ccff;
+        color: #000;
+        box-shadow: 0 0 10px rgba(0, 204, 255, 0.5);
+      }
+
+      .footer-links {
+        list-style: none;
+        padding: 0;
+      }
+
+      .footer-links li {
+        margin-bottom: 10px;
+      }
+
+      .footer-links a {
+        color: #ccc;
+        text-decoration: none;
+        transition: all 0.3s ease;
+      }
+
+      .footer-links a:hover {
+        color: #00ccff;
+        text-shadow: 0 0 10px rgba(0, 204, 255, 0.5);
+      }
+
+      .social-links a {
+        color: #00ccff;
+        font-size: 1.5rem;
+        margin-right: 15px;
+        transition: all 0.3s ease;
+      }
+
+      .social-links a:hover {
+        color: #fff;
+        text-shadow: 0 0 15px #00ccff;
+      }
+
+      .footer-divider {
+        border-color: rgba(0, 204, 255, 0.2);
+        margin: 30px 0;
+      }
+
+      .newsletter-box input {
+        background: rgba(255, 255, 255, 0.05);
+        border: 1px solid rgba(0, 204, 255, 0.3);
+        color: #fff;
+      }
+
+      .newsletter-box input:focus {
+        background: rgba(255, 255, 255, 0.1);
+        border-color: #00ccff;
+        box-shadow: 0 0 10px rgba(0, 204, 255, 0.3);
+      }
+
+      /* Add to your existing styles */
+      .register-form {
+        background: rgba(20, 20, 30, 0.9);
+        backdrop-filter: blur(10px);
+        padding: 40px;
+        border-radius: 20px;
+        box-shadow: 0 0 30px rgba(0, 204, 255, 0.2);
+        margin-top: 80px;
+        margin-bottom: 40px;
+      }
+
+      .form-wrapper {
+        position: relative;
+        z-index: 1;
+      }
+
+      .form-header {
+        text-align: center;
+        margin-bottom: 30px;
+      }
+
+      .form-header i {
+        color: #00ccff;
+        text-shadow: 0 0 15px rgba(0, 204, 255, 0.5);
+      }
+
+      .input-group-text {
+        background: rgba(0, 204, 255, 0.1);
+        border: 1px solid rgba(0, 204, 255, 0.3);
+        color: #00ccff;
+      }
+
+      .form-select {
+        background: rgba(255, 255, 255, 0.05);
+        border: 1px solid rgba(0, 204, 255, 0.3);
+        color: #fff;
+        padding: 12px;
+      }
+
+      .form-select:focus {
+        background: rgba(255, 255, 255, 0.1);
+        border-color: #00ccff;
+        box-shadow: 0 0 15px rgba(0, 204, 255, 0.3);
+        color: #fff;
+      }
+
+      .form-select option {
+        background: #1a1a2e;
+        color: #fff;
+      }
+
+      /* Add animation for form appearance */
+      .register-form {
+        animation: formAppear 0.5s ease-out;
+      }
+
+      @keyframes formAppear {
+        from {
+          opacity: 0;
+          transform: translateY(20px);
+        }
+        to {
+          opacity: 1;
+          transform: translateY(0);
+        }
+      }
+
+      /* Add hover effect to form */
+      .register-form:hover {
+        box-shadow: 0 0 40px rgba(0, 204, 255, 0.3);
+      }
+    </style>
+    <script src="/js/main.js"></script>
+  </head>
+  <body>
+    <!-- Navigation Header -->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="/">
+                    <i class="ph ph-barbell"></i> FitnessAI
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="/"><i class="ph ph-house"></i> Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#"><i class="ph ph-activity"></i> Workouts</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#"><i class="ph ph-apple"></i> Nutrition</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#"><i class="ph ph-user"></i> Profile</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main style="margin-top: 80px;">
+        {% block content %}{% endblock %}
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer mt-5">
+      <div class="container-fluid footer-container"></div>  
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4">
+                        <h5><i class="ph ph-brain"></i> Powered by AI</h5>
+                        <p>Using advanced machine learning to create personalized fitness plans tailored to your goals.</p>
+                        <div class="tech-stack">
+                            <span class="tech-badge">Kmeans_Clustering</span>
+                            <span class="tech-badge">TensorFlow</span>
+                            <span class="tech-badge">PyTorch</span>
+                            <span class="tech-badge">scikit-learn</span>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <h5><i class="ph ph-link"></i> Quick Links</h5>
+                        <ul class="footer-links">
+                            <li><a href="/about"><i class="ph ph-info"></i> About</a></li>
+                            <li><a href="/contact"><i class="ph ph-envelope"></i> Contact</a></li>
+                            <li><a href="/privacy"><i class="ph ph-shield"></i> Privacy Policy</a></li>
+                            <li><a href="/terms"><i class="ph ph-file-text"></i> Terms of Service</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-4">
+                        <h5><i class="ph ph-chart-line-up"></i> Stay Updated</h5>
+                        <div class="newsletter-box">
+                            <input type="email" class="form-control mb-2" placeholder="Enter your email">
+                            <button class="btn btn-primary w-100">Subscribe</button>
+                        </div>
+                        <div class="social-links mt-3">
+                            <a href="#"><i class="ph ph-github-logo"></i></a>
+                            <a href="#"><i class="ph ph-twitter-logo"></i></a>
+                            <a href="#"><i class="ph ph-instagram-logo"></i></a>
+                            <a href="#"><i class="ph ph-linkedin-logo"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <hr class="footer-divider">
+                <div class="footer-bottom">
+                    <p>&copy; 2025 FitnessAI. All rights reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

@@ -1,0 +1,70 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="container">
+    <div class="register-form">
+        <div class="row justify-content-center">
+            <div class="col-md-6">
+                <div class="form-wrapper">
+                    <div class="form-header">
+                        <i class="ph ph-user-plus display-4 mb-3"></i>
+                        <h2 class="text-center mb-4">Create Account</h2>
+                    </div>
+                    <form method="POST" action="{{ url_for('register') }}">
+                        <div class="form-group mb-3">
+                            <div class="input-group">
+                                <span class="input-group-text">
+                                    <i class="ph ph-user"></i>
+                                </span>
+                                <input type="text" class="form-control" id="user_name" name="user_name" 
+                                       placeholder="Enter your name" required>
+                            </div>
+                        </div>
+
+                        <div class="form-group mb-3">
+                            <div class="input-group">
+                                <span class="input-group-text">
+                                    <i class="ph ph-envelope"></i>
+                                </span>
+                                <input type="email" class="form-control" id="email" name="email" 
+                                       placeholder="Enter your email" required>
+                            </div>
+                        </div>
+
+                        <div class="form-group mb-3">
+                            <div class="input-group">
+                                <span class="input-group-text">
+                                    <i class="ph ph-lock"></i>
+                                </span>
+                                <input type="password" class="form-control" id="password" name="password" 
+                                       placeholder="Create password" required>
+                            </div>
+                        </div>
+
+                        <div class="form-group mb-4">
+                            <div class="input-group">
+                                <span class="input-group-text">
+                                    <i class="ph ph-users"></i>
+                                </span>
+                                <select class="form-select" id="user_type" name="user_type" required>
+                                    <option value="customer"  selected>Customer</option>
+                                    
+                                </select>
+                            </div>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary w-100 mb-3">
+                            <i class="ph ph-user-plus me-2"></i>Create Account
+                        </button>
+                    </form>
+                    <div class="form-footer text-center">
+                        <p>Already have an account? 
+                            <a href="{{ url_for('login') }}" class="link-primary">Login here</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
